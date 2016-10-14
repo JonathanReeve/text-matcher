@@ -81,10 +81,13 @@ class Matcher:
         passage = text.text[spans[0][0]:spans[-1][-1]]
         return passage 
 
-    def getLocations(self, text, start, length): 
+    def getLocations(self, text, start, length, asPercentages=False): 
         """ Gets the numeric locations of the match. """
         spans = text.spans[start:start+length]
-        locations = (spans[0][0]/text.length, spans[-1][-1]/text.length)
+        if asPercentages: 
+            locations = (spans[0][0]/text.length, spans[-1][-1]/text.length)
+        else: 
+            locations = (spans[0][0], spans[-1][-1])
         return locations
 
     def getMatch(self, match, textA, textB, context): 
