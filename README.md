@@ -1,5 +1,7 @@
 # text-matcher
 
+[![PyPI version](https://badge.fury.io/py/text-matcher.svg)](https://badge.fury.io/py/text-matcher)
+
 A simple text reuse detection CLI tool. Given a pair of texts or directories of texts, it will find similar text between them. This is good for detection of text reuses such as citation, quotation, intertextuality, and plagiarism. 
 
 The pilot experiment that uses this tool is [allusion-detection](https://github.com/JonathanReeve/allusion-detection). A new project that uses this tool is [middlemarch-critical-histories](https://github.com/xpmethod/middlemarch-critical-histories). 
