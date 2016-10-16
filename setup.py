@@ -11,12 +11,12 @@ if ver[0] < 3:
 setup(
     name = 'text-matcher',
     packages = ['text_matcher'], 
-    version = '0.1.1',
+    version = '0.1.2',
     description = 'A simple text reuse detection CLI tool.',
     author = 'Jonathan Reeve',
     author_email = 'jon.reeve@gmail.com',
     url = 'https://github.com/JonathanReeve/text-matcher', 
-    download_url = 'https://github.com/JonathanReeve/text-matcher/tarball/0.1.1', 
+    download_url = 'https://github.com/JonathanReeve/text-matcher/tarball/0.1.2', 
     install_requires = ['Click', 'nltk', 'termcolor'],
     keywords = ['NLP', 'text', 'text reuse'],
     entry_points='''
