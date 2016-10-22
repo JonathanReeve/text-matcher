@@ -92,10 +92,11 @@ class Matcher:
         return locations
 
     def getMatch(self, match, textA, textB, context): 
-        wordsA = self.getContext(textA, match.a, match.size, context)
-        wordsB = self.getContext(textB, match.b, match.size, context)
-        spansA = self.getLocations(textA, match.a, match.size)
-        spansB = self.getLocations(textB, match.b, match.size)
+        length = match.size + self.ngramSize - 1 # offset according to nGram size 
+        wordsA = self.getContext(textA, match.a, length, context)
+        wordsB = self.getContext(textB, match.b, length, context)
+        spansA = self.getLocations(textA, match.a, length)
+        spansB = self.getLocations(textB, match.b, length)
         self.locationsA.append(spansA)
         self.locationsB.append(spansB)
         line1 = ('%s: %s %s' % (colored(textA.filename, 'green'), spansA, wordsA) )
@@ -121,7 +122,8 @@ class Matcher:
             print('%s total matches found.' % numBlocks, flush=True)
 
         for num, match in enumerate(highMatchingBlocks): 
-            out = self.getMatch(match, self.textA, self.textB, 3)
+            print('match: ', match)
+            out = self.getMatch(match, self.textA, self.textB, 5)
             print('\n')
             print('match %s:' % (num+1), flush=True)
             print(out, flush=True)
