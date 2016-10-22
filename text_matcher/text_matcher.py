@@ -79,11 +79,11 @@ class Matcher:
         """ Looks up the passage in the original text, using its spans. """
         matchTokens = text.tokens[start:start+length]
         spans = text.spans[start:start+length]
-        logging.debug('Trying to get start: %s length: %s from text: %s' % \
-                (start, length, text.filename))
-        logging.debug('Spans: %s' % (spans) )
-        logging.debug('Len(spans) =  %s; len(text) = %s' % (len(spans), len(text.text)) )
-        passage = text.text[spans[0][0]:spans[-1][-1]]
+        if len(spans) == 0: 
+            # Don't try to get text or context beyond the end of a text. 
+            passage = ""
+        else: 
+            passage = text.text[spans[0][0]:spans[-1][-1]]
         return passage 
 
     def getLocations(self, text, start, length, asPercentages=False): 
