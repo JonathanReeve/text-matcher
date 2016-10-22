@@ -15,8 +15,9 @@ from termcolor import colored
 import click
 
 class Text: 
-    def __init__(self, filename): 
+    def __init__(self, filename, removeStopwords=True): 
         self.filename = filename
+        self.tokens = self.getTokens(removeStopwords)
         self.trigrams = self.ngrams(3)
         
     @property
@@ -25,8 +26,7 @@ class Text:
         f = open(self.filename, encoding='utf-8', errors='ignore')
         return f.read() 
 
-    @property
-    def tokens(self, removeStopwords=True): 
+    def getTokens(self, removeStopwords=True): 
         """ Tokenizes the text, breaking it up into words, removing punctuation. """
         tokenizer = nltk.RegexpTokenizer('[a-zA-Z]\w+\'?\w*') # A custom regex tokenizer. 
         spans = list(tokenizer.span_tokenize(self.text))
@@ -48,7 +48,7 @@ class Text:
         return list(ngrams(self.tokens, n))
 
 class Matcher: 
-    def __init__(self, fileA, fileB, threshold, ngramSize):
+    def __init__(self, fileA, fileB, threshold, ngramSize, removeStopwords):
         """
         Gets the texts from the files, tokenizes them, 
         cleans them up as necessary. 
@@ -56,13 +56,14 @@ class Matcher:
         self.threshold = threshold
         self.ngramSize = ngramSize
         
-        self.textA, self.textB = Text(fileA), Text(fileB)
+        self.textA, self.textB = Text(fileA, removeStopwords=removeStopwords), \
+                Text(fileB, removeStopwords=removeStopwords)
         
         self.textAgrams = self.textA.ngrams(ngramSize)
         self.textBgrams = self.textB.ngrams(ngramSize)
 
-        self.locationsA = [] 
-        self.locationsB = [] 
+        self.locationsA = []
+        self.locationsB = []
 
     def getContext(self, text, start, length, context): 
         match = self.getTokensText(text, start, length)
@@ -175,8 +176,9 @@ def createLog(logfile, columnLabels):
 @click.option('-t', '--threshold', type=int, default=2, help='The shortest length of match to include.')
 @click.option('-n', '--ngrams', type=int, default=3, help='The ngram n-value to match against.')
 @click.option('-l', '--logfile', default='log.txt', help='The name of the log file to write to.')
-@click.option('--verbose', is_flag=True, help='Whether to enable verbose mode, giving more information.')
-def cli(text1, text2, threshold, ngrams, logfile, verbose):
+@click.option('--stops', is_flag=True, help='Include stopwords in matching.', default=False)
+@click.option('--verbose', is_flag=True, help='Enable verbose mode, giving more information.')
+def cli(text1, text2, threshold, ngrams, logfile, verbose, stops):
     """ This program finds similar text in two text files. """
 
     #Determine whether the given path is a file or directory. 
@@ -186,6 +188,9 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose):
 
     if verbose: 
         logging.basicConfig(level=logging.DEBUG)
+
+    if stops: 
+        logging.debug('Including stopwords in tokenizing.') 
 
     logging.debug('Comparing this/these text(s): %s' % str(texts1))
     logging.debug('with this/these text(s): %s' % str(texts2))
@@ -217,7 +222,7 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose):
             continue
 
         # Do the matching. 
-        myMatch = Matcher(pair[0], pair[1], threshold, ngrams)
+        myMatch = Matcher(pair[0], pair[1], threshold, ngrams, stops)
         myMatch.match()
 
         # Write to the log, but only if a match is found.
