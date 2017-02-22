@@ -58,14 +58,16 @@ def createLog(logfile, columnLabels):
 @click.command()
 @click.argument('text1')
 @click.argument('text2') 
-@click.option('-t', '--threshold', type=int, default=2, \
-        help='The shortest length of match to include.')
+@click.option('-t', '--threshold', type=int, default=3, \
+        help='The shortest length of match to include in the list of initial matches.')
+@click.option('-c', '--cutoff', type=int, default=5, \
+        help='The shortest length of match to include in the final list of extended matches.')
 @click.option('-n', '--ngrams', type=int, default=3, \
         help='The ngram n-value to match against.')
 @click.option('-l', '--logfile', default='log.txt', help='The name of the log file to write to.')
 @click.option('--stops', is_flag=True, help='Include stopwords in matching.', default=False)
 @click.option('--verbose', is_flag=True, help='Enable verbose mode, giving more information.')
-def cli(text1, text2, threshold, ngrams, logfile, verbose, stops):
+def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
     """ This program finds similar text in two text files. """
 
     #Determine whether the given path is a file or directory. 
@@ -87,13 +89,14 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose, stops):
     numPairs = len(pairs) 
 
     logging.debug('Comparing %s pairs.' % numPairs)
-    logging.debug('List of pairs to compare: %s' % pairs)
+    # logging.debug('List of pairs to compare: %s' % pairs)
 
     logging.debug('Loading files into memory.')
 
     texts = {}
+    prevTextObjs = {}
     for filename in texts1+texts2: 
-        with open(filename) as f: 
+        with open(filename, errors="ignore") as f: 
             text = f.read() 
         if filename not in texts: 
             texts[filename] = text
@@ -101,20 +104,17 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose, stops):
     logging.debug('Loading complete.')
 
     for index, pair in enumerate(pairs): 
-        logging.debug('Now comparing pair %s of %s.' % (index, numPairs))
+        timeStart = os.times().elapsed
+        logging.debug('Now comparing pair %s of %s.' % (index+1, numPairs))
         logging.debug('Comparing %s with %s.' % (pair[0], pair[1]))
 
         # Make sure we haven't already done this pair. 
         inLog = checkLog(logfile, [pair[0], pair[1]])
 
-        # FIXME: Ignore
-        inLog = False
-
-
         if inLog is None: 
             # This means that there isn't a log file. Let's set one up.
             # Set up columns and their labels. 
-            columnLabels = ['Text A', 'Text B', 'Threshold', 'N-Grams', 'Num Matches', 'Text A Length', 'Text B Length', 'Locations in A', 'Locations in B']
+            columnLabels = ['Text A', 'Text B', 'Threshold', 'Cutoff', 'N-Grams', 'Num Matches', 'Text A Length', 'Text B Length', 'Locations in A', 'Locations in B']
             logging.debug('No log file found. Setting one up.')
             createLog(logfile, columnLabels)
             
@@ -126,16 +126,32 @@ def cli(text1, text2, threshold, ngrams, logfile, verbose, stops):
 
         filenameA, filenameB = pair[0], pair[1]
         textA, textB = texts[filenameA], texts[filenameB]
-        textObjA = Text(textA, filenameA)
-        textObjB = Text(textB, filenameB)
+
+        # Put this in a dictionary so we don't have to process a file twice.
+        for filename in [filenameA, filenameB]: 
+            if filename not in prevTextObjs: 
+                logging.debug('Processing text: %s' % filename)
+                prevTextObjs[filename] = Text(texts[filename], filename)
+
+        # Just more convenient naming. 
+        textObjA = prevTextObjs[filenameA]
+        textObjB = prevTextObjs[filenameB]
+
+        # Reset the table of previous text objects, so we don't overload memory. 
+        # This means we'll only remember the previous two texts. 
+        prevTextObjs = {filenameA: textObjA, filenameB: textObjB}
 
         # Do the matching. 
-        myMatch = Matcher(textObjA, textObjB, threshold, ngrams, stops)
+        myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams, removeStopwords=stops)
         myMatch.match()
+
+        timeEnd = os.times().elapsed
+        timeElapsed = timeEnd-timeStart
+        logging.debug('Matching completed in %s seconds.' % timeElapsed)
 
         # Write to the log, but only if a match is found.
         if myMatch.numMatches > 0: 
-            logItems = [pair[0], pair[1], threshold, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
+            logItems = [pair[0], pair[1], threshold, cutoff, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
             logging.debug('Logging items: %s' % str(logItems))
             line = ','.join(['"%s"' % item for item in logItems]) + '\n'
             f = open(logfile, 'a')

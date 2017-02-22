@@ -91,7 +91,7 @@ class Matcher():
     """ 
     Does the text matching. 
     """
-    def __init__(self, textObjA, textObjB, threshold=5, ngramSize=3, removeStopwords=True):
+    def __init__(self, textObjA, textObjB, threshold=3, cutoff=5, ngramSize=3, removeStopwords=True):
          
         """
         Takes as input two Text() objects, and matches between them.
@@ -99,8 +99,6 @@ class Matcher():
         self.threshold = threshold
         self.ngramSize = ngramSize
         
-        #self.textA, self.textB = Text(fileA, removeStopwords=removeStopwords), \
-        #        Text(fileB, removeStopwords=removeStopwords)
         self.textA = textObjA
         self.textB = textObjB 
         
@@ -114,6 +112,12 @@ class Matcher():
         self.healed_matches = self.heal_neighboring_matches()
         
         self.extended_matches = self.extend_matches()
+
+        # Prune matches
+        self.extended_matches = [match for match in self.extended_matches 
+                if min(match.sizeA, match.sizeB) >= cutoff]
+
+        self.numMatches = len(self.extended_matches)
     
     def get_initial_matches(self): 
         """
@@ -128,7 +132,6 @@ class Matcher():
         highMatchingBlocks = [match for match in matchingBlocks if match.size > self.threshold]
     
         numBlocks = len(highMatchingBlocks)
-        self.numMatches = numBlocks
         
         if numBlocks > 0: 
             print('%s total matches found.' % numBlocks, flush=True)
@@ -193,8 +196,7 @@ class Matcher():
                 continue
             else: 
                 if ( nextMatch.a - (match.a + match.size) ) < minDistance: 
-                    print('Potential healing candidate found: ')
-                    print(match, nextMatch)
+                    # logging.debug('Potential healing candidate found: ' % (match, nextMatch))
                     sizeA = (nextMatch.a + nextMatch.size) - match.a
                     sizeB = (nextMatch.b + nextMatch.size) - match.b
                     healed = ExtendedMatch(match.a, match.b, sizeA, sizeB)
@@ -260,12 +262,11 @@ class Matcher():
             
         return self.healed_matches
     
-
     def match(self): 
         """ Gets and prints all matches. """
         
         for num, match in enumerate(self.extended_matches): 
-            print('match: ', match)
+            # print('match: ', match)
             out = self.getMatch(match)
             print('\n')
             print('match %s:' % (num+1), flush=True)
@@ -283,5 +284,3 @@ def test():
     mm = Text(open('middlemarch.txt').read(), 'Middlemarch')
     matcher = Matcher(mm, test1Text)
     matcher.match()
-
-
