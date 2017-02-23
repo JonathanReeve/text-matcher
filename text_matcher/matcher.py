@@ -41,10 +41,10 @@ class Text:
         """ Heals hyphenated words, and maybe other things. """    
         self.text = re.sub(r'([A-Za-z])- ([a-z])', r'\1\2', self.text)
 
-    def getTokens(self, removeStopwords=True, stemType="lemmas" ): 
+    def getTokens(self, removeStopwords=True, stemType="none"): 
         """ 
         Tokenizes the text, breaking it up into words, removing punctuation. 
-        stemType should be either "stems" or "lemmas" 
+        stemType should be either "stems" or "lemmas," or "none."  
         """
 
         logging.debug('Creating list of tokens.')
@@ -59,18 +59,16 @@ class Text:
 
         if stemType == "stems": 
             logging.debug('Stemming.')
-            stemmer = LancasterStemmer()
+            # stemmer = LancasterStemmer()
+            stemmer = nltk.stem.snowball.EnglishStemmer()
             tokens = [ stemmer.stem(w.lower_) for w in words ]
         else: 
-            logging.debug('Lemmatizing.')
-            # FIXME: Can't get this to work.
-            # tokens = [w.lemma_ for w in words]
+            # FIXME: Lemmas
             tokens = [w.lower_ for w in words]
 
         self.spans = [(w.idx, w.idx+len(w)) for w in words]
 
         # Take note of how many spans there are in the text
-        #print(spans)
         self.length = self.spans[-1][-1] 
 
         return tokens
