@@ -7,6 +7,7 @@ import glob
 import csv
 import logging
 import itertools
+import spacy
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -103,6 +104,9 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
 
     logging.debug('Loading complete.')
 
+    logging.debug('Warming up SpaCy...')
+    nlp = spacy.load('en')
+
     for index, pair in enumerate(pairs): 
         timeStart = os.times().elapsed
         logging.debug('Now comparing pair %s of %s.' % (index+1, numPairs))
@@ -131,7 +135,7 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
         for filename in [filenameA, filenameB]: 
             if filename not in prevTextObjs: 
                 logging.debug('Processing text: %s' % filename)
-                prevTextObjs[filename] = Text(texts[filename], filename)
+                prevTextObjs[filename] = Text(texts[filename], filename, nlp)
 
         # Just more convenient naming. 
         textObjA = prevTextObjs[filenameA]

@@ -16,7 +16,11 @@ from string import punctuation
 from termcolor import colored
 
 class Text: 
-    def __init__(self, raw_text, label, removeStopwords=True): 
+    def __init__(self, raw_text, label, nlp, removeStopwords=True): 
+        """ 
+        Requires SpaCy to be loaded with nlp = spacy.load('en'), 
+        and for nlp to be passed to this object. 
+        """ 
         if type(raw_text) == list: 
             # JSTOR critical works come in lists, where each item represents a page. 
             self.text = ' \n '.join(raw_text)
@@ -24,33 +28,52 @@ class Text:
             self.text = raw_text
         self.label = label
         self.preprocess(self.text)
-        self.tokens = self.getTokens(removeStopwords)
+
+        logging.debug('Processing text with SpaCy.')
+        self.doc = nlp(self.text, tag=False, parse=False, entity=False)
+
+        logging.debug('Processing complete. Tokenizing.')
+        self.tokens = self.getTokens()
+
         self.trigrams = self.ngrams(3)
         
     def preprocess(self, text): 
         """ Heals hyphenated words, and maybe other things. """    
         self.text = re.sub(r'([A-Za-z])- ([a-z])', r'\1\2', self.text)
 
-    def getTokens(self, removeStopwords=True): 
-        """ Tokenizes the text, breaking it up into words, removing punctuation. """
-        tokenizer = nltk.RegexpTokenizer('[a-zA-Z]\w+\'?\w*') # A custom regex tokenizer. 
-        #tokenizer = nltk.RegexpTokenizer('\w+|\$[\d\.]+|\S+') # A custom regex tokenizer. 
-        spans = list(tokenizer.span_tokenize(self.text))
+    def getTokens(self, removeStopwords=True, stemType="lemmas" ): 
+        """ 
+        Tokenizes the text, breaking it up into words, removing punctuation. 
+        stemType should be either "stems" or "lemmas" 
+        """
+
+        logging.debug('Creating list of tokens.')
+
+        if removeStopwords: 
+            words = [w for w in self.doc 
+                    if w.is_alpha and 
+                    w.is_stop == False] 
+        else: 
+            words = [w for w in self.doc 
+                    if w.is_alpha] 
+
+        if stemType == "stems": 
+            logging.debug('Stemming.')
+            stemmer = LancasterStemmer()
+            tokens = [ stemmer.stem(w.lower_) for w in words ]
+        else: 
+            logging.debug('Lemmatizing.')
+            # FIXME: Can't get this to work.
+            # tokens = [w.lemma_ for w in words]
+            tokens = [w.lower_ for w in words]
+
+        self.spans = [(w.idx, w.idx+len(w)) for w in words]
+
         # Take note of how many spans there are in the text
         #print(spans)
-        self.length = spans[-1][-1] 
-        tokens = tokenizer.tokenize(self.text)
-        tokens = [ token.lower() for token in tokens ] # make them lowercase
-        stemmer = LancasterStemmer()
-        tokens = [ stemmer.stem(token) for token in tokens ]
-        if not removeStopwords: 
-            self.spans = spans
-            return tokens
-        tokenSpans = list(zip(tokens, spans)) # zip it up
-        stopwords = nltk.corpus.stopwords.words('english') # get stopwords
-        tokenSpans = [ token for token in tokenSpans if token[0] not in stopwords ] # remove stopwords from zip
-        self.spans = [ x[1] for x in tokenSpans ] # unzip; get spans
-        return [ x[0] for x in tokenSpans ] # unzip; get tokens
+        self.length = self.spans[-1][-1] 
+
+        return tokens
     
     def ngrams(self, n): 
         """ Returns ngrams for the text."""
@@ -222,6 +245,8 @@ class Matcher():
         """ 
         distance = editDistance(wordA, wordB)
         averageLength = (len(wordA) + len(wordB))/2
+        if averageLength == 0.0: 
+            logging.error('Average length of these two words is zero: %s %s' % (wordA, wordB))
         return distance/averageLength
     
     def extend_matches(self, cutoff=0.4): 
