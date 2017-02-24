@@ -17,7 +17,7 @@ setup(
     author_email = 'jon.reeve@gmail.com',
     url = 'https://github.com/JonathanReeve/text-matcher', 
     download_url = 'https://github.com/JonathanReeve/text-matcher/tarball/0.1.4', 
-    install_requires = ['Click', 'nltk', 'termcolor'],
+    install_requires = ['Click', 'nltk', 'termcolor', 'spacy'],
     keywords = ['NLP', 'text', 'text reuse'],
     entry_points='''
     [console_scripts]
