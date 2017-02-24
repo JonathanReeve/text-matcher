@@ -158,13 +158,12 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
         logging.debug('Matching completed in %s seconds.' % timeElapsed)
 
         # Write to the log, but only if a match is found.
-        if myMatch.numMatches > 0: 
-            logItems = [pair[0], pair[1], threshold, cutoff, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
-            logging.debug('Logging items: %s' % str(logItems))
-            line = ','.join(['"%s"' % item for item in logItems]) + '\n'
-            f = open(logfile, 'a')
-            f.write(line)
-            f.close()
+        logItems = [pair[0], pair[1], threshold, cutoff, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
+        logging.debug('Logging items: %s' % str(logItems))
+        line = ','.join(['"%s"' % item for item in logItems]) + '\n'
+        f = open(logfile, 'a')
+        f.write(line)
+        f.close()
 
 if __name__ == '__main__':
     cli()
