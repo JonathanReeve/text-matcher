@@ -145,9 +145,13 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
         # This means we'll only remember the previous two texts. 
         prevTextObjs = {filenameA: textObjA, filenameB: textObjB}
 
-        # Do the matching. 
-        myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams, removeStopwords=stops)
-        myMatch.match()
+        try: 
+            # Do the matching. 
+            myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams, removeStopwords=stops)
+            myMatch.match()
+        except: 
+            logging.debug('Encountered a matcher error with this one. Skipping.')
+            continue     
 
         timeEnd = os.times().elapsed
         timeElapsed = timeEnd-timeStart
