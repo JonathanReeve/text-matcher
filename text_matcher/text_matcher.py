@@ -148,22 +148,25 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
         # This means we'll only remember the previous two texts. 
         prevTextObjs = {filenameA: textObjA, filenameB: textObjB}
 
-        # Do the matching. 
-        myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams, removeStopwords=stops)
-        myMatch.match()
+        try: 
+            # Do the matching. 
+            myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams, removeStopwords=stops)
+            myMatch.match()
+        except: 
+            logging.debug('Encountered a matcher error with this one. Skipping.')
+            continue     
 
         timeEnd = os.times().elapsed
         timeElapsed = timeEnd-timeStart
         logging.debug('Matching completed in %s seconds.' % timeElapsed)
 
         # Write to the log, but only if a match is found.
-        if myMatch.numMatches > 0: 
-            logItems = [pair[0], pair[1], threshold, cutoff, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
-            logging.debug('Logging items: %s' % str(logItems))
-            line = ','.join(['"%s"' % item for item in logItems]) + '\n'
-            f = open(logfile, 'a')
-            f.write(line)
-            f.close()
+        logItems = [pair[0], pair[1], threshold, cutoff, ngrams, myMatch.numMatches, myMatch.textA.length, myMatch.textB.length, str(myMatch.locationsA), str(myMatch.locationsB)]
+        logging.debug('Logging items: %s' % str(logItems))
+        line = ','.join(['"%s"' % item for item in logItems]) + '\n'
+        f = open(logfile, 'a')
+        f.write(line)
+        f.close()
 
 if __name__ == '__main__':
     cli()
