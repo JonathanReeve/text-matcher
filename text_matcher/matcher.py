@@ -11,7 +11,6 @@ from difflib import SequenceMatcher
 from nltk.metrics.distance import edit_distance as editDistance
 from nltk.stem.lancaster import LancasterStemmer
 from nltk.util import ngrams 
-import pandas as pd
 from string import punctuation
 from termcolor import colored
 
@@ -297,13 +296,3 @@ class Matcher():
 
         return self.numMatches, self.locationsA, self.locationsB
 
-
-def test(): 
-    with open('txt/e1a.json') as f: 
-        rawData = f.read()
-    df = pd.read_json(rawData)
-    test1 = df.loc[0]['ocr']
-    test1Text = Text(test1, 'test1')
-    mm = Text(open('middlemarch.txt').read(), 'Middlemarch')
-    matcher = Matcher(mm, test1Text)
-    matcher.match()
