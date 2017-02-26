@@ -87,6 +87,9 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops):
 
     pairs = list(itertools.product(texts1, texts2))
 
+    # Don't compare a text with itself. 
+    pairs = [pair for pair in pairs if pair[0] != pair[1]]
+
     numPairs = len(pairs) 
 
     logging.debug('Comparing %s pairs.' % numPairs)
