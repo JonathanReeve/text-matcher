@@ -34,10 +34,8 @@ class Text:
     def getTokens(self, removeStopwords=True): 
         """ Tokenizes the text, breaking it up into words, removing punctuation. """
         tokenizer = nltk.RegexpTokenizer('[a-zA-Z]\w+\'?\w*') # A custom regex tokenizer. 
-        #tokenizer = nltk.RegexpTokenizer('\w+|\$[\d\.]+|\S+') # A custom regex tokenizer. 
         spans = list(tokenizer.span_tokenize(self.text))
         # Take note of how many spans there are in the text
-        #print(spans)
         self.length = spans[-1][-1] 
         tokens = tokenizer.tokenize(self.text)
         tokens = [ token.lower() for token in tokens ] # make them lowercase
@@ -187,10 +185,17 @@ class Matcher():
         healedMatches = []
         ignoreNext = False
         matches = self.initial_matches.copy()
-        for i, match in enumerate(self.initial_matches): 
-            if i+1 > len(self.initial_matches)-1: 
+        # Handle only one match.
+        if len(matches) == 1:
+            match = matches[0]
+            sizeA, sizeB = match.size, match.size
+            match = ExtendedMatch(match.a, match.b, sizeA, sizeB)
+            healedMatches.append(match)
+            return healedMatches 
+        for i, match in enumerate(matches): 
+            if i+1 > len(matches)-1: 
                 break
-            nextMatch = self.initial_matches[i+1]
+            nextMatch = matches[i+1]
             if ignoreNext: 
                 ignoreNext = False
                 continue
@@ -273,14 +278,3 @@ class Matcher():
             print(out, flush=True)
 
         return self.numMatches, self.locationsA, self.locationsB
-
-
-def test(): 
-    with open('txt/e1a.json') as f: 
-        rawData = f.read()
-    df = pd.read_json(rawData)
-    test1 = df.loc[0]['ocr']
-    test1Text = Text(test1, 'test1')
-    mm = Text(open('middlemarch.txt').read(), 'Middlemarch')
-    matcher = Matcher(mm, test1Text)
-    matcher.match()
