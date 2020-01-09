@@ -1,0 +1,3 @@
+Click
+nltk
+termcolor
