@@ -11,7 +11,6 @@ from difflib import SequenceMatcher
 from nltk.metrics.distance import edit_distance as editDistance
 from nltk.stem.lancaster import LancasterStemmer
 from nltk.util import ngrams
-import pandas as pd
 from string import punctuation
 from termcolor import colored
 
@@ -163,7 +162,10 @@ class Matcher():
         if asPercentages:
             locations = (spans[0][0]/text.length, spans[-1][-1]/text.length)
         else:
-            locations = (spans[0][0], spans[-1][-1])
+            try:
+                locations = (spans[0][0], spans[-1][-1])
+            except IndexError:
+                return None
         return locations
 
     def getMatch(self, match, context=5):
@@ -174,12 +176,13 @@ class Matcher():
         wordsB = self.getContext(textB, match.b, lengthB, context)
         spansA = self.getLocations(textA, match.a, lengthA)
         spansB = self.getLocations(textB, match.b, lengthB)
-        self.locationsA.append(spansA)
-        self.locationsB.append(spansB)
-        line1 = ('%s: %s %s' % (colored(textA.label, 'green'), spansA, wordsA) )
-        line2 = ('%s: %s %s' % (colored(textB.label, 'green'), spansB, wordsB) )
-        out = line1 + '\n' + line2
-        return out
+        if spansA is not None and spansB is not None:
+            self.locationsA.append(spansA)
+            self.locationsB.append(spansB)
+            line1 = ('%s: %s %s' % (colored(textA.label, 'green'), spansA, wordsA) )
+            line2 = ('%s: %s %s' % (colored(textB.label, 'green'), spansB, wordsB) )
+            out = line1 + '\n' + line2
+            return out
 
     def heal_neighboring_matches(self, minDistance=8):
         healedMatches = []

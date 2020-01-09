@@ -53,5 +53,15 @@ Alternatively, clone this repo and install using pip:
 
 ```
 git clone https://github.com/JonathanReeve/text-matcher
+cd text-matcher
 pip install .
+```
+
+Or with Pipenv: 
+
+```
+git clone https://github.com/JonathanReeve/text-matcher
+cd text-matcher
+pipenv install .
+pipenv run text-matcher
 ```
