@@ -1,6 +1,7 @@
 # text-matcher
 
 [![PyPI version](https://badge.fury.io/py/text-matcher.svg)](https://badge.fury.io/py/text-matcher)
+[![DOI](https://zenodo.org/badge/70358326.svg)](https://zenodo.org/badge/latestdoi/70358326)
 
 A simple text reuse detection CLI tool. Given a pair of texts or directories of texts, it will find similar text between them. This is good for detection of text reuses such as citation, quotation, intertextuality, and plagiarism. 
 
@@ -65,3 +66,21 @@ cd text-matcher
 pipenv install .
 pipenv run text-matcher
 ```
+
+# Citation
+
+If you use `text-matcher` in your research, you can cite it like this, for now: 
+
+```
+@misc{Reeve2020,
+  author = {Reeve, Jonathan},
+  title = {Text-Matcher},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/JonathanReeve/text-matcher}},
+  commit = {988d9422a63165225ea136fc31427b1e57814505},
+  doi = {10.5281/zenodo.3937738}
+}
+```
+
