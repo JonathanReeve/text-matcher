@@ -34,12 +34,17 @@ Usage: text-matcher [OPTIONS] TEXT1 TEXT2
   This program finds similar text in two text files.
 
 Options:
-  -t, --threshold INTEGER  The shortest length of match to include.
-  -n, --ngrams INTEGER     The ngram n-value to match against.
-  -l, --logfile TEXT       The name of the log file to write to.
-  --verbose                Whether to enable verbose mode, giving more
-                           information.
-  --help                   Show this message and exit.
+  -t, --threshold INTEGER    The shortest length of match to include in the
+                             list of initial matches.
+  -c, --cutoff INTEGER       The shortest length of match to include in the
+                             final list of extended matches.
+  -n, --ngrams INTEGER       The ngram n-value to match against.
+  -m, --mindistance INTEGER  The minimum value for distance between two
+                             match.
+  -l, --logfile TEXT         The name of the log file to write to.
+  --stops                    Include stopwords in matching.
+  --verbose                  Enable verbose mode, giving more information.
+  --help                     Show this message and exit.
 ```
 
 # Installation
