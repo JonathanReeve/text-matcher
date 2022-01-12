@@ -11,7 +11,7 @@ if ver[0] < 3:
 setup(
     name = 'text-matcher',
     packages = ['text_matcher'], 
-    version = '0.1.6',
+    version = '0.1.7',
     description = 'A simple text reuse detection CLI tool.',
     author = 'Jonathan Reeve',
     author_email = 'jon.reeve@gmail.com',

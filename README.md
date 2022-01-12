@@ -51,11 +51,17 @@ Options:
 
 You can install `text-matcher` using `pip`: 
 
-On Arch or a modern Linux distribution that uses python3, run: `pip install text-matcher`. 
+``` sh
+pip3 install --user text-matcher
+```
 
-On Ubuntu or a similar distribution that uses an old version of Python, run: `sudo pip3 install text-matcher`. 
+Or globally, with `sudo`: 
 
-Alternatively, clone this repo and install using pip: 
+```sh
+sudo pip3 install text-matcher
+```
+
+Alternatively, clone this repo and install locally, using pip: 
 
 ```
 git clone https://github.com/JonathanReeve/text-matcher
