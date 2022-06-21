@@ -91,7 +91,7 @@ class Matcher:
     Does the text matching.
     """
 
-    def __init__(self, textObjA, textObjB, threshold=3, cutoff=5, ngramSize=3, removeStopwords=True, minDistance=8):
+    def __init__(self, textObjA, textObjB, threshold=3, cutoff=5, ngramSize=3, removeStopwords=True, minDistance=8, silent=False):
 
         """
         Takes as input two Text() objects, and matches between them.
@@ -121,6 +121,8 @@ class Matcher:
 
         self.numMatches = len(self.extended_matches)
 
+        self.silent = silent
+
     def get_initial_matches(self):
         """
         This does the main work of finding matching n-gram sequences between
@@ -135,7 +137,7 @@ class Matcher:
 
         numBlocks = len(highMatchingBlocks)
 
-        if numBlocks > 0:
+        if numBlocks > 0 and self.silent is not True:
             print('%s total matches found.' % numBlocks, flush=True)
 
         return highMatchingBlocks
@@ -248,8 +250,9 @@ class Matcher:
             wordA = self.textAgrams[(match.a - 1)][0]
             wordB = self.textBgrams[(match.b - 1)][0]
             if self.edit_ratio(wordA, wordB) < cutoff:
-                print('Extending match backwards with words: %s %s' %
-                      (wordA, wordB))
+                if self.silent is not True:
+                    print('Extending match backwards with words: %s %s' %
+                        (wordA, wordB))
                 match.a -= 1
                 match.b -= 1
                 match.sizeA += 1
@@ -265,8 +268,9 @@ class Matcher:
             wordA = self.textAgrams[idxA][-1]
             wordB = self.textBgrams[idxB][-1]
             if self.edit_ratio(wordA, wordB) < cutoff:
-                print('Extending match forwards with words: %s %s' %
-                      (wordA, wordB))
+                if self.silent is not True:
+                    print('Extending match forwards with words: %s %s' %
+                        (wordA, wordB))
                 match.sizeA += 1
                 match.sizeB += 1
                 match.extendedForwards += 1
@@ -285,8 +289,9 @@ class Matcher:
         for num, match in enumerate(self.extended_matches):
             # print('match: ', match)
             out = self.getMatch(match)
-            print('\n')
-            print('match %s:' % (num + 1), flush=True)
-            print(out, flush=True)
+            if self.silent is not True:
+                print('\n')
+                print('match %s:' % (num + 1), flush=True)
+                print(out, flush=True)
 
         return self.numMatches, self.locationsA, self.locationsB

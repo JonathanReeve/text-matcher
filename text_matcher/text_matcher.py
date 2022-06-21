@@ -71,8 +71,9 @@ def createLog(logfile, columnLabels):
               help='The minimum value for distance between two match.')
 @click.option('-l', '--logfile', default='log.txt', help='The name of the log file to write to.')
 @click.option('--stops', is_flag=True, help='Include stopwords in matching.', default=False)
-@click.option('--verbose', is_flag=True, help='Enable verbose mode, giving more information.')
-def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops, mindistance):
+@click.option('--verbose', is_flag=True, help='Enable verbose mode, giving more information.', default=False)
+@click.option('--silent', is_flag=True, help='Disable printing of matches', default=False)
+def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops, mindistance, silent):
     """ This program finds similar text in two text files. """
 
     # Determine whether the given path is a file or directory.
@@ -149,7 +150,7 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops, mindis
 
         # Do the matching. 
         myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams,
-                          removeStopwords=stops, minDistance=mindistance)
+                          removeStopwords=stops, minDistance=mindistance, silent=silent)
         myMatch.match()
 
         timeEnd = os.times().elapsed
