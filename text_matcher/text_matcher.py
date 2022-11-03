@@ -22,10 +22,11 @@ def getFiles(path):
     if os.path.isfile(path):
         return [path]
     elif os.path.isdir(path):
-        # Get list of all files in dir, recursively. 
+        # Get list of all files in dir, recursively.
         return glob.glob(path + "/**/*.txt", recursive=True)
     else:
-        raise click.ClickException("The path %s doesn't appear to be a file or directory" % path)
+        raise click.ClickException(
+            "The path %s doesn't appear to be a file or directory" % path)
 
 
 def checkLog(logfile, textpair):
@@ -61,13 +62,13 @@ def createLog(logfile, columnLabels):
 @click.command()
 @click.argument('text1')
 @click.argument('text2')
-@click.option('-t', '--threshold', type=int, default=3, \
+@click.option('-t', '--threshold', type=int, default=3,
               help='The shortest length of match to include in the list of initial matches.')
-@click.option('-c', '--cutoff', type=int, default=5, \
+@click.option('-c', '--cutoff', type=int, default=5,
               help='The shortest length of match to include in the final list of extended matches.')
-@click.option('-n', '--ngrams', type=int, default=3, \
+@click.option('-n', '--ngrams', type=int, default=3,
               help='The ngram n-value to match against.')
-@click.option('-m', '--mindistance', type=int, default=8, \
+@click.option('-m', '--mindistance', type=int, default=8,
               help='The minimum value for distance between two match.')
 @click.option('-l', '--logfile', default='log.txt', help='The name of the log file to write to.')
 @click.option('--stops', is_flag=True, help='Include stopwords in matching.', default=False)
@@ -114,12 +115,12 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops, mindis
         logging.debug('Now comparing pair %s of %s.' % (index + 1, numPairs))
         logging.debug('Comparing %s with %s.' % (pair[0], pair[1]))
 
-        # Make sure we haven't already done this pair. 
+        # Make sure we haven't already done this pair.
         inLog = checkLog(logfile, [pair[0], pair[1]])
 
         if inLog is None:
             # This means that there isn't a log file. Let's set one up.
-            # Set up columns and their labels. 
+            # Set up columns and their labels.
             columnLabels = ['Text A', 'Text B', 'Threshold', 'Cutoff', 'N-Grams', 'Num Matches', 'Text A Length',
                             'Text B Length', 'Locations in A', 'Locations in B']
             logging.debug('No log file found. Setting one up.')
@@ -140,15 +141,15 @@ def cli(text1, text2, threshold, cutoff, ngrams, logfile, verbose, stops, mindis
                 logging.debug('Processing text: %s' % filename)
                 prevTextObjs[filename] = Text(texts[filename], filename)
 
-        # Just more convenient naming. 
+        # Just more convenient naming.
         textObjA = prevTextObjs[filenameA]
         textObjB = prevTextObjs[filenameB]
 
-        # Reset the table of previous text objects, so we don't overload memory. 
-        # This means we'll only remember the previous two texts. 
+        # Reset the table of previous text objects, so we don't overload memory.
+        # This means we'll only remember the previous two texts.
         prevTextObjs = {filenameA: textObjA, filenameB: textObjB}
 
-        # Do the matching. 
+        # Do the matching.
         myMatch = Matcher(textObjA, textObjB, threshold=threshold, cutoff=cutoff, ngramSize=ngrams,
                           removeStopwords=stops, minDistance=mindistance, silent=silent)
         myMatch.match()
