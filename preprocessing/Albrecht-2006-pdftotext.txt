@@ -1,0 +1,1521 @@
+Sympathy and Telepathy: The Problem of Ethics in George Eliot's "The Lifted Veil"
+Author(s): Thomas Albrecht
+Source: ELH , Summer, 2006, Vol. 73, No. 2 (Summer, 2006), pp. 437-463
+Published by: The Johns Hopkins University Press
+Stable URL: https://www.jstor.org/stable/30030019
+REFERENCES
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/30030019?seq=1&cid=pdfreference#references_tab_contents
+You may need to log in to JSTOR to access the linked references.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+The Johns Hopkins University Press is collaborating with JSTOR to digitize, preserve and
+extend access to ELH
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+SYMPATHY AND TELEPATHY: THE PROBLEM OF
+ETHICS IN GEORGE ELIOT'S THE LIFTED VEIL
+BY THOMAS ALBRECHT
+
+Presentiments are strange things! and so are sympathies; and so a
+signs.
+
+-Charlotte BrontW, Jane Eyre
+
+I. SYMPATHY AND ANTIPATHY
+
+If art does not enlarge men's sympathies, it does nothing morally.
+
+-George Eliot, letter to Charles Bray
+
+I have never been encouraged to trust much in the sympathy of my
+
+fellow men.
+
+-Latimer, in The Lifted Veil
+
+Although George Eliot's gothic novella The Lifted Veil is not oste
+
+sibly a work of realism, and although it has until recently been treate
+
+by critics as a marginal anomaly in Eliot's oeuvre, its themes are
+several respects central to Eliot's work overall and to Eliot's ethics
+particular. By the time she composed the story early in 1859, El
+had developed in her essays and in her first full-length novel Ad
+Bede an ethics of art and aesthetics, specifically of realist art. T
+ethics is founded on emotional responses, what Eliot calls sympat
+and compassion, by which she means a person's ability to feel and
+suffer with another person. Her theory insists that art should giv
+reader or viewer access to the experiences, thoughts, and feelings
+
+a great variety of different characters. Eliot proposes that our insigh
+
+into the minds and experiences of these characters "extend" our sy
+
+pathy for other people and for humanity in general, thereby producin
+
+ELH 73 (2006) 437-463 c 2006 by The Johns Hopkins University Press 4
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+an ethical response in us. In her 1856 essay "The Natural History of
+German Life," for example, she writes, "The greatest benefit we owe
+to the artist, whether painter, poet, or novelist, is the extension of our
+sympathies. ... Art is the nearest thing to life; it is a mode of amplifying experience and extending our contact with our fellow-men beyond
+
+the bounds of our personal lot."' So whereas a critic like Walter Pater
+describes the experience of art as a retraction into the self ("What is
+this song or picture, this engaging personality presented in life or in a
+book, to me?"), Eliot describes it as an extension beyond the limitations
+
+of the self, as a coming up against some form of otherness.
+Most recent scholars working on The Lifted Veil have noted in pass-
+
+ing that the relation between art and ethics is implicitly taken up in
+the novella; however, their analyses have largely sidestepped this issue
+
+and concentrated instead on contextualizing elements from the plot
+within such Victorian scientific theories and practices as mesmerism
+and animal magnetism, phrenology, clairvoyance, vivisection, blood
+transfusions, and physiological psychology.3 In this essay, I should like
+to bring critical attention to the ethical dilemma that is implicitly and
+
+explicitly raised in The Lifted Veil. I will focus in particular on the
+central conceit of telepathic power and on its equivocal relation to
+the moral value Eliot calls sympathy.
+The Lifted Veil is told retrospectively in the form of a confessional
+
+manuscript written by Latimer, an overly sensitive aesthete and misanthrope. As a young man, Latimer discovers that he is intermittently
+and involuntarily subjected to two kinds of clairvoyant powers: he has
+prescient visions of future events and telepathic access to the thoughts
+
+and feelings of those around him. His insights into what he describes
+as the pettiness, stupidity, and egotism of other people alienate him
+from all society. He eventually meets Bertha Grant, a beautiful young
+woman who soon after becomes engaged to marry his half-brother
+Alfred. He falls in love with Bertha, in part because "she made the
+only exception, among all the human beings about me, to my unhappy
+
+gift of insight."4 He has a prescient vision of an older Bertha as his
+wife, which reveals to him her cruelty and her hatred of him, but
+he nevertheless continues to love and desire her. Following Alfred's
+death in an accident, Latimer and Bertha are married and eventually
+come to live together in the state of mutual alienation anticipated in
+Latimer's vision. A visit from Latimer's childhood friend Meunier, now
+
+a renowned scientist, is the occasion for a gothic reanimation scene
+in which a recently deceased maid is momentarily restored to life to
+accuse Bertha of plotting to poison Latimer. In this climactic scene,
+
+438 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+Bertha is revealed to Latimer as a femme fatale whose outer beauty
+has veiled her inner monstrosity. After the couple's final separation
+following this incident, the story ends with Latimer finishing his account and awaiting, in the narrative present, his own death predicted
+at the novella's outset.5
+
+Following a suggestive essay by Charles Swann, I propose that The
+Lifted Veil implicitly tests the premises of Eliot's ethics of sympathy
+through the conceit of Latimer's telepathic "participation in other
+
+people's consciousness" (V, 17). Latimer's clairvoyance can be read
+as an implicit figure for realist art as Eliot defines it, because it gives
+Latimer access to the thoughts and feelings of a large number of
+different people. Latimer is in this sense a stand-in for the reader or
+viewer, and also, in another sense, a stand-in for Eliot herself and for
+
+the artist in general. As Swann puts it, "Latimer knows the pains and
+joys of others. . . . [His] position is strikingly analogous to that of the
+
+reader of a George Eliot novel."6 Latimer himself characterizes his
+telepathic powers as
+the obtrusion in my mind of the mental process going forward in first
+
+one person, then another, with whom I happened to be in contact:
+the vagrant, frivolous ideas and emotions of some uninteresting
+acquaintance .., .would force themselves on my consciousness like an
+importunate, ill-played musical instrument, or the loud activity of an
+
+imprisoned insect. (V, 13)
+
+Latimer's reference to an obtrusion of frivolous emotions, and his
+metaphors of the importunate instrument and the imprisoned insect,
+suggest the potential failure of Eliot's ethical theory of art. This is
+
+because while Latimer has access to the thoughts and feelings of
+others, he does not respond according to Eliot's prescription; he feels
+neither sympathy nor affection. Rather than eliciting pity and compassion, Latimer's telepathic insights elicit in him only boredom and
+contempt. To have involuntary access to the minds of his neighbors,
+he complains, is at best "wearying and annoying," at worst "an intense
+
+pain and grief" (V, 13-14). Thus Latimer's experiences would seem to
+contradict Eliot's theory that art can and should enlarge our sympathy
+
+simply by granting us access to the thoughts and feelings of those
+around us. Latimer in fact makes explicit reference to this theory, but
+only to dismiss it as a wishful illusion:
+This is one of the vain thoughts with which we men flatter ourselves.
+We try to believe that the egotism within us would have easily been
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+439
+
+melted, and that it was only the narrowness of our knowledge which
+hemmed in our generosity, our awe, our human pity, and hindered
+them from submerging our hard indifference to the sensations and
+emotions of our fellow. (V, 21-22)
+
+Latimer briefly considers the possibility that an expansion of our insight into others might lead us to feel pity and generosity for them.
+But his final assessment is that this is only "one of the vain thoughts
+
+with which we men flatter ourselves."7
+
+Through Latimer's "hard indifference" to the sensations and emotions of the people around him, The Lifted Veil dramatizes a crisis for
+
+Eliot's ethics of sympathy. Latimer's misanthropic responses to other
+people suggest a less stable relation between art and ethics than the
+one necessitated by Eliot's theory. Eliot herself alludes to this more
+unstable relation in a line she wrote to her friend Charles Bray at
+the time of the novella's composition, "If art does not enlarge men's
+sympathies, it does nothing morally."" There are at least two ways to
+read this sentence, and the ambiguity nicely condenses the ethical
+predicament in The Lifted Veil. On the one hand, Eliot maintains that
+art can be morally effective by enlarging our sympathies. On the other
+hand, her use of the double negative suggests that art is morally inef-
+
+ficient because it does not enlarge our sympathy, a more pessimistic
+assessment which Latimer's experiences would seem to confirm.9 I
+propose that Eliot both acknowledges and resolves this predicament
+at the level of the plot. In order to defend her ethical theory against
+the implications of Latimer's narcissism, she stages a conversion narrative in which Latimer makes an unexpected transition from antipathy to sympathy. She then projects Latimer's antipathy onto another
+character, namely Bertha Grant, the femme fatale of her story. This
+projection allows her to delineate and to demonize the antipathy more
+distinctively (using the convenient figure of a transgressive woman),
+and then, at a symbolic level, to expel it.
+The initial step in the expulsion of Bertha and of the antipathy she
+
+represents is the moral conversion Latimer undergoes on the evening
+of his father's death. The father's dying from an illness becomes the first
+
+occasion for Latimer to feel sympathy for another human being:
+Perhaps it was the first day since the beginning of my passion for
+[Bertha], in which that passion was completely neutralised by the
+presence of an absorbing feeling of another kind. I had been watching
+by my father's deathbed: I had been witnessing the last fitful yearning
+glance his soul had cast back on the spent inheritance of life-the last
+
+440 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+faint consciousness of love he had gathered from the pressure of my
+hand. What are all our personal loves when we have been sharing in
+that supreme agony? In the first moments when we come away from
+the presence of death, every other relation to the living is merged, to
+
+our feeling, in the great relation of a common nature and a common
+destiny. (V, 31, my emphasis)
+
+This passage depicts unprecedented avowals of sympathy and compassion. For the first time in the novella, Latimer does not respond to
+the consciousness of another person with contempt or indifference.
+Instead, he claims a connection with his father by way of their shared
+
+mortality. The word sympathy derives from the Greek sympathes
+(having common feelings) and is here evoked in Latimer's emphasis
+on commonality ("the great relation of a common nature and a common destiny"). Through his communion with his father and through
+the sense of their common mortality, Latimer is also able to claim a
+connection with humanity in general, as indicated by his shift in the
+passage from the first person singular to the first person plural.1o
+Latimer's conversion to sympathy at his father's death leads directly
+to his first clairvoyant insight into Bertha's mind. Up until this point
+
+in the narrative, Bertha has remained a "fascinating secret" (V, 20)
+and an "oasis of mystery" (V, 18) to him, and for this reason an object
+
+of intense speculations and desires. But immediately following his
+communion with his dying father, Latimer experiences a "terrible moment of complete illumination," which directly reveals to him Bertha's
+
+"scheming selfishness" and her "repulsion and antipathy harden[ing]
+into cruel hatred" (V, 32). He explicitly depicts this illumination as an
+effect of the bond he has just shared with his father:
+In that state of mind I joined Bertha in her private sitting-room...
+I remember, as I closed the door behind me, a cold tremulousness
+
+seizing me, and a vague sense of being hated and lonely-vague and
+strong, like a presentiment. I know how I looked at that moment, for
+
+I saw myself in Bertha's thought as she lifted her cutting grey eyes,
+and looked at me: a miserable ghost-seer, surrounded by phantoms
+
+in the noon-day, trembling under a breeze when the leaves were
+still, without appetites for the common objects of human desire, but
+pining after the moonbeams. We were front to front with each other,
+and judged each other. The terrible moment of complete illumination
+
+had come. (V, 31-32)
+
+Among other things, this scene is explicitly a moment of judgment
+("We ... judged each other"), a moment of moral recognition. I would
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+441
+
+argue that in the exchange of looks between the two characters, the
+specific function of Bertha's gaze is to appropriate Latimer's earlier
+antipathy. What Latimer sees and recognizes is not so much Bertha's
+inner self, but rather the way in which she sees him: "I saw myself
+in Bertha's thought as she lifted her cutting grey eyes, and looked at
+me: a miserable ghost-seer, surrounded by phantoms in the noon-day,
+trembling under a breeze when the leaves were still, without appetite
+for the common objects of human desire." The way in which Bertha
+sees Latimer closely resembles the way in which he had earlier seen
+the people around him: as miserable, pitiful, and as fundamentally
+disconnected from one another. At the same time, her gaze stands in
+explicit contrast to Latimer's clairvoyant communion with his dying
+father in the scene just before, thus suggesting that Eliot has projected
+
+the antipathy away from Latimer and onto Bertha. The misanthropic
+Bertha, it seems, is unveiled here by Latimer as his own uncanny
+double."
+
+Eliot's purpose in exposing Bertha as Latimer's double is to protect
+her ethics of sympathy from the implications of Latimer's antipathy.
+By projecting that antipathy onto Bertha, Eliot leaves Latimer, the
+proxy for both herself and the reader, free to convert to sympathy. The
+subsequent redemption of Latimer in the plot signals the concurrent
+redemption of Eliot's literary ethics and the successful warding off of an
+
+implicit threat. The protective effect of the projection lies in Bertha's
+
+more unequivocal embodiment of antipathy. While Latimer's misanthropy is exonerated in the plot by the oedipal and social pressures to
+which he is continually subjected, and while it is ultimately (though
+only partially) transformed into sympathy for the dying father and for
+humanity in general, Bertha is an image of antipathy as pure, absolute
+evil. Eliot uses the conventions of the nineteenth-centuryfemmefatale
+
+to make this evil intelligible, suggesting a direct correspondence between Bertha's character and her sex, an association readily available
+in Victorian culture.'" The femme fatale provides Eliot with a stock
+personification of antipathy, an antipathy that is unveiled and then
+symbolically expelled, much as the character Bertha is expelled from
+the plot once her secret plan to poison Latimer has been unveiled.
+
+442 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+II. SYMPATHY AND METAPHOR
+
+All of us, grave or light, get our thoughts entangled in metaphors an
+act fatally on the strength of them.
+
+-Middlemarch, chapter 10
+
+The structure outlined at the end of the previous section is w
+Neil Hertz has identified as "a structure common in Eliot's novels
+
+double surrogation, in which the author's investment in her characte
+
+is split into 'good' and 'bad' versions, and the valued imaginative activ
+
+of the 'good' surrogate is purchased by the exiling of the 'bad.""'1
+The Lifted Veil, Latimer transforms into Eliot's good surrogate, w
+Bertha is the bad surrogate. In his reading of Middlemarch, He
+considers the overall structure, and the overcoming of the thr
+posed by the bad surrogate, a protective displacement of a diffe
+threat, one which Eliot cannot overcome as easily. He identifies
+second threat as an "open and indeterminate self-dispersion ass
+
+ated with a plurality of signs and the plurality of interpretations th
+
+writing can provoke."14 For Hertz, the danger displaced by the m
+conflict in Middlemarch between good and bad authorial surroga
+is a categorical threat to the self as such, to its ability to conceiv
+itself as a unified and coherent entity. My reading of The Lifted
+follows Hertz in identifying an opposition between a good and a
+surrogate for Eliot and in suggesting that the entire double surr
+tion structure is a displacement of a different threat altogether.
+unlike Hertz, I identify the latter not as an extra-moral threat to
+
+self's ability to constitute itself, but as another moral threat. I will b
+
+arguing that this second threat is ethically more troubling to
+
+than either Latimer's egotism or Bertha's evil. I specifically locate th
+
+threat not in any one character's disposition towards another charact
+
+but in the visual metaphors through which Latimer's moral insig
+
+are formulated. Insofar as these insights take the form of metaphor
+
+they are based on principles of similarity, analogy, and commona
+Such principles are fundamentally at odds with Eliot's notion of w
+
+a true ethics should be, namely an attentiveness to what is irreducibl
+
+different or apart from oneself. Ultimately the more disturbing eth
+conflict in The Lifted Veil is not between antipathy and sympathy b
+
+between an ethics based on similarity and one based on differenc
+As its title suggests, The Lifted Veil has an interest in the co
+monplace Victorian theme of knowledge and, more specifically, in
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+443
+
+play between knowledge and ignorance, veiling and unveiling, secrecy
+and initiation. The privileged object of knowledge for Eliot's novels
+in general and for The Lifted Veil in particular is the consciousness
+of other people. In The Lifted Veil, the theme of Latimer's telepathy
+demonstrates the novella's preoccupation with the idea of gaining access to someone else's mind. For Eliot, the appreciation of another
+person's consciousness that is made possible by art is the first step
+towards moral agency, which is for her the aim of all great art and
+criticism. Thus any understanding one may gain of another person's
+thoughts and feelings is never a neutral kind of knowledge but always
+has a strong moral dimension; in The Lifted Veil, for instance, Latimer's
+sympathetic witnessing of his dying father's thoughts, and the revelation
+
+to him of Bertha's antipathy, are distinctly moral insights.
+As its title also suggests, The Lifted Veil portrays the initiation into
+
+moral knowledge in specifically visual terms. Here, for example, is
+Latimer's experience of his grieving father's consciousness: "As I saw
+into the desolation of my father's heart, I felt a movement of deep
+pity towards him, which was the beginning of a new affection" (V, 28,
+
+my emphasis). And here is Latimer's telepathic insight into Bertha's
+mind, partially quoted earlier: "I saw myself in Bertha's thought as
+she lifted her cutting grey eyes, and looked at me: a miserable ghostseer... The terrible moment of complete illumination had come to
+me, and I saw the darkness had hidden no landscape from me, but
+only a blank prosaic wall" (V, 32, my emphasis). Latimer's conversion to sympathy and the revelation of Bertha's antipathy are both
+represented visually: Latimer sees into his father's desolate heart, he
+sees into Bertha's mind, and he sees himself in Bertha's eyes. Both
+moments demonstrate the extent to which Eliot frames morality and
+immorality in visual terms and the extent to which she makes moral
+conclusions intelligible through visual metaphors such as clairvoyance,
+darkness, and illumination. These kinds of metaphors traditionally imply
+
+an epistemological reliability and would thus serve to strengthen the
+authority of Latimer's insights.
+
+The "blank prosaic wall" as which Bertha is revealed to Latimer in
+the second quotation indicates a second metaphorical strand in The
+Lifted Veil that is intertwined with the visual metaphors (clairvoyance,
+
+illumination, darkness, and so on), namely a series of metaphorical
+references to prose, that is to writing, reading, texts, and to language.
+
+Rather than comparing Bertha to a visual object, the latter metaphors
+compare her to a text that must be deciphered or read. Latimer compares Bertha to an epigram (V, 26), her glances to "feminine nothings
+
+444 S1ympathq and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+which could never be quoted against her" (V, 16), and his recollections
+of her to "an oriental alphabet" (V, 35). Like the visual metaphors,
+these metaphors concentrate around Bertha in scenes of considerable
+epistemological stress. But unlike the visual metaphors, they designate
+her inaccessibility, rather than her accessibility, to Latimer's clairvoyant
+
+powers: "Bertha's inward self remained shrouded from me, and I still
+read her thoughts only through the language of her lips and demeanour" (V, 31). In this line, Latimer associates vision with certainty, and
+reading with uncertainty and tentativeness.
+Several of the examples I have cited join together the two metaphori-
+
+cal strands in which Bertha is entwined: the visual metaphors (which
+compare her to a visual object) and the textual metaphors (which
+compare her to a piece of writing). For instance, the "blank prosaic
+wall" simultaneously compares her to a wall and to a piece of prose.
+Yet even as the two metaphorical strands sometimes overlap, they each
+designate their referent, Bertha, in very distinct terms: the one in terms
+
+of the senses ("seeing" her) and the other in textual terms ("reading"
+her). Reading and seeing are of course not wholly analogous, and in
+fact the two strands sometimes come to interfere with one another,
+and to comment on one another. As J. Hillis Miller has noted about the
+relation between different metaphorical strands in Middlemarch, "the
+
+interpretation of one metaphor by another metaphor is characteristic
+of Eliot's use of figure."'5 In The Lifted Veil, I would propose, the
+textual metaphors interpret the visual metaphors as mere metaphors.
+In doing so, they subvert the visual metaphors' privileged status as
+decisive revelations. This is because simply by their juxtaposition with
+the visual metaphors, the textual metaphors foreground, as it were, the
+metaphorical nature of the visual metaphors. The combination of the
+two strands, for instance in the "blank prosaic wall," emphasizes that
+the "illumination" and "unveiling" of Bertha's inner self are also only
+metaphors, just as the comparisons of Bertha to an oriental alphabet
+or an epigram are metaphors. However, because the unveiling and
+the illumination evoke the sensual experience of seeing an object with
+one's eyes (rather than the experience of reading a text), they veil their
+own metaphorical nature in a way that the textual metaphors arguably
+do not. By veiling their status as figures, the visual metaphors imply
+a revelation by means of the senses; this revelation would be decisive
+and absolute insofar as it would not be mediated by means of language
+and tropological figures, that is, by means of reading and writing. The
+claim to a sensory rather than linguistic access to truth underwrites
+the moral conclusions of the novella; I have shown this in my reading
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+445
+
+of moral truths becoming visually intelligible in Latimer's visions of
+his father's desolate soul and Bertha's misanthropic consciousness. My
+claim now is that through the juxtaposition of Latimer's visual revela-
+
+tions with the textual metaphors, Eliot brings out the metaphorical
+nature of those revelations. That metaphorical nature in turn implies
+the revelations' potential arbitrariness and unreliability.
+The comparisons of Bertha to a piece of writing suggest that rather
+than being an object Latimer can see, Bertha is a kind of impenetrable
+text that has to be read or deciphered. The metaphor of a text designates
+the otherness of Bertha from Latimer; Eliot makes this explicit insofar
+
+as she repeatedly associates versions of this figure with opacity, as in
+the image of the oriental alphabet. If the other is a kind of obscure
+text, Eliot suggests, it is open to something like numerous, potentially
+contradictory interpretations, but not to something like clear, unequivocal vision. As only one possible interpretation (out of many) of the text
+
+as which Bertha becomes manifest, then, Latimer's visual exposure of
+
+the character Bertha is not an absolute revelation of truth. It is rather
+
+the revelation of a truth that is more arbitrary and subjective, one that
+
+potentially says more about Latimer than about Bertha. Hence even
+at the moment of her alleged unveiling, Bertha "remain[s] virtually
+unknown" to Latimer and to us; she is "known merely as a cluster of
+signs for [her] neighbour's false suppositions."'16 Latimer's recognition
+
+of her inner selfishness is only one supposition made on the basis of
+the cluster of signs as which Bertha is intelligible to him. His insight
+into her consciousness, and by extension any insight into it, is only
+one interpretation of "the language of her lips and demeanour," of
+that obscure language which (figuratively) indicates her difference
+from him and from us.
+
+To some extent, the possibility that Latimer is interpreting Bertha,
+rather than directly seeing into her, is covered over, so to speak, by the
+veil of the visual metaphor, by the veil of Bertha's visual unveiling. Eliot
+
+covers it over because she wants to protect the authority of Latimer's
+moral insights; once we realize that those insights are only metaphors
+and interpretations, their authority would be compromised due to the
+potential arbitrariness of metaphors and interpretations, which Eliot
+famously acknowledges throughout her writings. At the same time
+that she protects Latimer's insights, however, Eliot uses the textual
+metaphors implicitly to undermine their authority, by showing that
+Bertha is truly Latimer's other, and that his insights into her are only
+his own approximations of that otherness via metaphor. Figuratively
+speaking, those insights are like interpretations of a text and thus sub-
+
+446 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+ject to the same kind of uncertainty and capriciousness to which any
+interpretation is subject."7 If Bertha in her otherness is more like a text
+than like a visual object, Eliot implies, Latimer cannot literally see into
+
+her. She cannot literally be unveiled, only metaphorically. Thus Eliot
+calls the epistemological authority of Latimer's visions into question.
+In the concluding section of this essay, I will consider how she calls
+the moral authority of those visions into question as well.
+As a first step in that direction, I should like to offer an example
+of how Latimer's use of figurative language destabilizes the moral
+insights made possible by Bertha's visual unveiling. In the climactic
+scene of The Lifted Veil, Bertha's recently deceased maid, Mrs. Archer, is temporarily brought back to life to reveal Bertha's secret plot
+
+to poison Latimer:
+The dead woman's eyes were wide open, and met [Bertha's eyes] in full
+recognition-the recognition of hate. With a sudden strong effort, the
+hand that Bertha had thought for ever still was pointed towards her, and
+
+the haggard face moved. The gasping eager voice said-"You mean to
+poison your husband." (V, 41-42)
+
+Like Latimer's insights into the consciousnesses of his father and
+Bertha, Mrs. Archer's exposure of Bertha is pointedly visual; it takes
+the form of her eyes meeting Bertha's eyes. The scene is crucial to
+the plot because it provides empirical evidence for Bertha's exposure
+and indictment, adding to Latimer's earlier clairvoyant evidence.
+And it is also crucial to the double surrogation structure because it
+provides empirical evidence for the indictment of Bertha as Eliot's
+bad surrogate. In the passage, the good surrogate, Latimer, explicitly
+equates Mrs. Archer's "full recognition" of Bertha with "the recognition of hate," the kind of hate of which Eliot wishes to purge him by
+projecting it onto Bertha.
+Yet the moral authority of Bertha's exposure ("we all felt that the
+dark veil had completely fallen") is undermined by a suggestion that the
+
+evidence in question is as much metaphorical as empirical.'8 Bertha's
+plan to poison Latimer is not only a secret plot unveiled by Mrs. Archer
+but also a citation of one of Latimer's recurring metaphors for Bertha,
+the figure of Lucrezia Borgia. Earlier in the story, Latimer and Bertha
+are in Vienna, visiting a picture gallery:
+I had been looking at Giorgione's picture of the cruel-eyed woman,
+said to be a likeness of Lucrezia Borgia. I had stood long alone before
+it, fascinated by the terrible reality of that cunning, relentless face, till
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+447
+
+I felt a strange poisoned sensation, as if I had long been inhaling a fatal
+odour, and was just beginning to be conscious of its effects. (V, 18-19,
+my emphasis)
+
+Latimer's choice of the word "poisoned" to describe the strange sensation
+
+he feels while looking at the portrait would seem to be motivated by
+the subject matter of the painting itself. At the same time, the epithet
+"cruel-eyed" indicates an affinity between the woman in the portrait and
+Bertha, an affinity that is confirmed in a scene immediately following.
+
+As Bertha takes Latimer's arm, he relates that "a strange intoxicating
+numbness passed over me, like the continuance or climax of the sensa-
+
+tion I was still feeling from the gaze of Lucrezia Borgia" (V, 19). The
+doubling of Bertha and Lucrezia Borgia raises the possibility that the
+poisoning plot that is later revealed by Mrs. Archer is merely Latimer's
+
+taking his metaphor for Bertha to its logical conclusion. If Bertha is
+(like) Lucrezia Borgia, it follows that she would attempt to eliminate
+her enemy by poison. The literal poison intended for Latimer is in this
+
+sense just a variant of the "poisoned sensation" Latimer claims to feel
+in the presence of the Lucrezia Borgia portrait.'9
+
+The poison metaphor appears elsewhere in the novella as well. Latimer refers to the scene just described as "that hideous vision which
+poisoned the passion it could not destroy" (V, 21), and he justifies his
+ongoing infatuation with Bertha by claiming, "The fear of poison is feeble
+
+against the sense of thirst" (V, 20). Given this recurring and somewhat
+banal metaphor, one has to be just a little suspicious when Bertha's plan
+to poison Latimer is finally revealed. At best, Mrs. Archer's exposure of
+Bertha's plan leaves us unable to choose between taking this moment as
+a revelation of an empirical truth and taking it as one more recurrence of
+the Lucrezia Borgia metaphor. The status of the revelation is ultimately
+undecidable because Eliot provides us with no means by which to know
+for sure. Certainly the unveiling of Bertha's secret plot is crucial to the
+novella's resolution, but its truth is not empirically (that is to say, nonmetaphorically) verifiable. This is not because Latimer may be an unreli-
+
+able narrator, as Terry Eagleton has argued, but because the poisoning
+plot is at the same time simply a quotation of a metaphor taken from a
+series of metaphors that leads back to the woman in the portrait, "said
+to be a likeness of Lucrezia Borgia" (V, 18-19, my emphasis)."20
+Caught in this predicament, we should not try to verify whether the
+scene is "really" a moment of truth or "just" a citation of a metaphor.
+
+Eliot's point is that it is both at once, insofar as she does not make a
+tenable distinction here between a true insight into the other and a meta-
+
+448 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+phor for the other. This is the epistemological predicament personified
+by the figure of Bertha. The many textual metaphors for Bertha insist
+that any revelation of Bertha's inner self, including this one, is already a
+metaphor, whether that metaphor is drawn from the sensual realm or the
+
+linguistic realm or from elsewhere. To put it another way, the unveiling
+of Bertha's character is one interpretation (among many possible interpretations) of the text as which Bertha is intelligible to Latimer and to
+us. This general point about the constitutive relation between the other
+and metaphor is merely reconfirmed here by the uncanny coincidence of
+a frequently recurring metaphor and an alleged revelation of the other's
+interiority or essence.
+Eliot's recognition of metaphor's constitutive role in our insights into
+
+other people has fundamental consequences for her understanding of
+morality, as she acknowledges in a comment made by her good surrogate,
+
+Latimer. At a point late in the narrative, Latimer explicitly interrogates
+the validity of any moral judgment of another person that is mediated
+
+through one's own verbal representation of that person's experience.
+He concludes an assessment of his and Bertha's unhappy marriage by
+questioning the moral authority of such assessments:
+That course of our life which I have indicated in a few sentences filled
+
+the space of years. So much misery-so slow and hideous a growth of
+hatred and sin, may be compressed into a sentence! And men judge of
+each other's lives through this summary medium. They epitomise the
+experience of their fellow-mortal, and pronounce judgment on him in
+neat syntax, and feel themselves wise and virtuous-conquerors over the
+temptations they define in well-selected predicates. (V, 34)
+
+Latimer insists here on a distinction between years of misery and the
+compression of those years into a single sentence, between actual
+experience and the epitome of that experience (an epitome is a brief
+verbal summary). What men judge when they judge one another, he
+says, is never the other's actual experience, but always its epitome.
+These kinds of judgments, he points out, allow the judges to "feel
+themselves wise and virtuous-conquerors over the temptations they
+define in well-selected predicates." At the same time, he calls this kind
+of morality into question because it is built on one's own definition of
+
+the other's temptations and on one's own summations of the other's
+experience, rather than on an appreciation of the other's experience
+itself, of that experience in its otherness.
+
+Latimer's reflections on the ways our judgments of one another
+are verbally mediated substantiate my earlier claim that Eliot's episThomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+449
+
+temological emphasis on the metaphorical bases of moral insights into
+other people puts not only the reliability but the morality of those
+insights into question. The epistemological problem is that metaphors
+are arbitrary and subjective, which in turn subjects one's insights to
+a potential arbitrariness. The moral problem is that these metaphors
+are always one's own figures for the other; as such, they refer back to
+
+oneself, not to the other. Metaphors are based on principles of analogy and similarity, not difference. They establish a relation between
+the other and something that is already familiar to oneself in order
+to make the other more familiar. In the Rhetoric, Aristotle identifies
+familiarization as both the means and the aim of metaphors: "[I]n using
+
+metaphors to give names to nameless things, we must draw them not
+from remote but from kindred and similar things, so that the kinship
+
+is clearly perceived as soon as the words are said."21 The kinship to be
+perceived is not only between the metaphor and the nameless thing
+but also between us and the thing. The ethical problem here is the
+implicit emphasis on the other's kinship to oneself. Latimer suggests
+in the passage quoted above that a more just ethics would be an appreciation of the other as other: an appreciation of the other's actual
+experience, not an appreciation of one's definition of that experience.
+His claim complements explicit claims Eliot makes throughout her
+writings. In her essay "The Natural History of German Life," for
+instance, she argues that great art "surprises even the trivial and the
+selfish into that attention to what is apart from themselves, which may
+be called the raw material of moral sentiment.""22 Elsewhere, in a letter
+
+to Bray from which I have quoted earlier, she writes, "[T]he only effect I ardently long to produce by my writings is that those who read
+
+them should be better able to imagine and to feel the pains and joys
+of those who differ from themselves" (L, 3:111). And in Middlemarch,
+her narrator specifically indicts the egotistic Rosamond for her inability
+or unwillingness to engage with Lydgate as someone autonomous from
+
+herself: "Rosamond, in fact, was entirely occupied not exactly with
+Tertius Lydgate as he was in himself, but with his relation to her."23
+So Eliot explicitly defines the ethics of art and of interpersonal relations as an attention to what is apart or different from oneself. This
+appeal to our awareness of the other's difference from us, rather than
+its similarity to us, has been largely overlooked by critics working on
+
+Eliot's ethics, critics who primarily define those ethics in terms of a
+fellowship or sympathy between the self and the other.24 Eliot derives
+the imperative to acknowledge the other's otherness from the work of
+
+Ludwig Feuerbach, a writer with whom she claimed a great affinity
+
+450 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+(L, 2:153), and especially from Feuerbach's Essence of Christianity,
+a text she translated in 1854. "The consciousness of the moral law,
+of right, of propriety, of truth itself," Feuerbach writes in Marian
+Evans's translation, "is indissolubly connected with my consciousness
+of another than myself."25
+
+Eliot's appeal to a consciousness of the other's difference from
+ourselves would seem to be at odds with her own attention to Bertha,
+which pointedly does not acknowledge Bertha's otherness, even though
+
+Bertha is, by virtue of her gender (she is the only significant female
+character in the story) and by virtue of her opacity, the novella's exem-
+
+plar of otherness. Eliot ultimately reveals Bertha as a deficient double
+of Latimer and, by implicit extension, of herself, not as something truly
+
+apart from Latimer or herself. Like Rosamond in the citation from
+Midlemarch, Eliot is preoccupied not with Bertha as she is, but with
+Bertha's relation to herself. This preoccupation with Bertha as her own
+bad double ultimately allows her to resolve her ethical dilemma and to
+close the narrative, but the ethics of that closure are called into question by her simultaneous insistence that the other must be attended
+to as other, not as a (negative or positive) reflection of the self. In the
+final section of this essay, I will argue that this discrepancy between
+an ethics based on true difference and an ethics based on similarity
+points to an ethical dilemma in The Lifted Veil that is itself radically
+different from the sympathy/antipathy problem on which the novella
+and Eliot's work in general ostensibly concentrate. The latter problem,
+I will propose, is a protective displacement of the former.
+III. SYMPATHY AND TELEPATHY
+
+The moral is plain enough... the one-sided knowing of
+
+relation to the self.
+
+-George Henry Lewes, on The Lifted V
+
+In The Lifted Veil, the truly ethical attention to the othe
+from oneself" would seem to be exemplified by the conceit
+
+telepathy. Etymologically, the word telepathy implies distan
+
+apartness; literally, it means to feel something from a distan
+is usually defined as extrasensory impressions of something
+
+far away and separate from oneself. Thus it designates an ap
+
+of the other from a distance, a relation to the other that is
+
+unmediated by one's senses or language. In accordance wi
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+451
+
+junction to respect the difference between oneself and the other, it would
+seem to be a figure for a purely ethical relation. It is a figure for gaining
+
+access to the actual person rather than to an epitome of the person. Yet
+Eliot is tellingly unable to represent Latimer's telepathy except through
+sensory metaphors like "microscopic vision" (V, 14) and "a preternaturally heightened sense of hearing" (V, 18). These metaphors indicate
+the extent to which Eliot is forced to represent the radical alterity of
+telepathic experience in familiar analogues. Something that is presumably
+extrasensory is rendered by her in images of heightened sensory experiences. Telepathy, it would seem, can only be represented metaphorically,
+which is to say it cannot be represented as such; thus the representation
+of telepathy as heightened senses paradoxically points to the impossibility of representing telepathy. Along a similar vein, Eliot represents the
+thoughts and feelings of other people to which Latimer gains clairvoyant
+access not as any kind of irreducible otherness but in familiar (though
+admittedly opaque) similes like "a ringing in the ears not to be gotten rid
+of" (V, 18), "a sensation of grating metal" (V, 14), an "ill-played musical
+instrument" (V, 13), "the loud activity of an imprisoned insect" (V, 13),
+and "a roar of sound where others find perfect stillness" (V, 18). These
+metaphors for the otherness of other people's consciousnesses ostensibly
+designate the epistemological problem outlined in the previous section:
+the recognition that the other necessarily becomes intelligible through
+one's own metaphors for it.26 For Eliot, this epistemological problem
+has profound and explicit ethical repercussions.
+I would maintain that the novella's failure to represent Latimer's
+telepathy is indicative of its true ethical dilemma: the inability to face
+the other as other, despite Eliot's injunction that we must do precisely
+that, and the inevitable recourse to framing the other in terms of oneself. This recourse to one's own terms is a recourse to metaphor, to a
+framing of the relation to the other as a similarity, not as irreducibly
+differential. Eliot's failure to write telepathically about telepathy suggests that the kinds of verbal summations and judgments we make of
+each other's experiences are inevitable because the person doing the
+judging could never have access to the other's experiences as such,
+could never, that is, have telepathic access to the other. Through this
+failure, Eliot insists that as soon as one enters into a relationship with
+the other, a relation of ethically judging, say, this relationship is never
+telepathic but always mediated through one's own metaphors and interpretations. This is the argument of the narrator in Middlemarch, who
+states that people remain "virtually unknown" to one another, and can
+be known only as clusters of signs for their neighbor's false suppositions.
+
+452 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+Latimer, for instance, comes to know Bertha through such signs and
+sign clusters as the blank prosaic wall, the cold gaze, the secret plot
+to poison him, and so on, but he does not know her telepathically, as
+someone completely and irreducibly apart from himself. So despite
+the novella's title, Bertha's veil is never truly lifted at all.27
+
+Through her failure to represent Latimer's telepathy as such, Eliot suggests that an ethics based on difference may be impossible to
+formalize. In attempting to attain a moral position, her only recourse
+is sympathy, an ethics based on commonality, on what she calls the
+fellowship of all human beings.2s The word sympathy, derived from
+the Greek syn (with, together with) and pathos (feeling), would seem
+to be opposed to telepathy, a word derived from tele (distant) and
+pathos. The difference is between understanding and relating to the
+other in terms of its similarity to oneself, and understanding it in terms
+
+of its irreducible distance from oneself. In The Lifted Veil, Eliot can
+only understand or represent the other in terms of similarity, which
+is to say in terms of metaphors (the ill-played musical instrument,
+the imprisoned insect, the narrow room, and so on). The other is not
+known as "apart from oneself," even though the conceit of telepathy
+is a reminder of the (failed) imperative to know it in just such a way.
+The other is known only in terms of an analogy to the self, in terms
+of what Latimer at his father's deathbed calls "the great relation of
+a common nature and a common destiny" (V, 31). Latimer's implicit
+interpretation of his father's mortality as a figure for his own is indicative
+
+of this ethics of sympathy. It is indicative of the necessary recourse to
+metaphor (for Latimer, the dying father is fundamentally a metaphor
+
+for himself). Latimer's conversion to sympathy is in this sense also a
+figure for the failure of telepathy, for the impossibility of facing the
+other as other.29
+Eliot's turn from telepathy to sympathy is not only an epistemologi-
+
+cal necessity but a compensatory move aimed at restoring for Eliot
+the possibility of any ethical agency at all.30 To put it in the terms
+of Freud's essay "Fetishism," it is an apotropaic belief in similarity
+(here, the fellowship between oneself and the other) that indicates
+and simultaneously covers over an awareness of difference (here, the
+other's difference from oneself, and the difference between an ethics
+based on difference and an ethics based on similarity). Sympathy is
+a kind of fetish, and, like the Freudian fetish, it designates both the
+presence and the absence of something deemed valuable (in Eliot's
+case not the maternal phallus but an ethical relation to the other). It
+enables Eliot and her reader to be moral agents, but it also subverts
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+453
+
+that morality through its uncanny similarity, at a fundamental level,
+to antipathy, its alleged opposite.
+Insofar as sympathy is based on a presumed similarity between the
+other and oneself, it effectively collapses the distinction between itself
+and egotism. That distinction is the fundamental opposition within
+which critics have traditionally located the defining ethical conflict in
+Eliot's work. The distinction collapses, Eliot implies in The Lifted Veil,
+because both sympathy and egotism similarly relate the other back to
+the self, either in terms of its similarity or dissimilarity to the self. In
+the end, the two kinds of relationships come back to the same thing,
+namely the self, and neither meets Eliot's ethical criterion of being
+attentive to what is "apart from oneself" (in other words neither is
+telepathic). This is true no matter how good or bad one's intentions,
+
+or how compassionate or misanthropic one's language. Both positions are fundamentally metaphorical, since any relationship to the
+other, whether friendly or hostile, is based on a (positive or negative)
+comparison of the other to oneself. This implicit comparison is what
+such diverse metaphors as the blank prosaic wall, the great relation
+of a common destiny, and the ill-played musical instrument have in
+common. Eliot's failure to represent the radical alterity of Latimer's
+telepathy suggests that this recourse to metaphor is inevitable; it implies that we can only ever face the other as some kind of metaphor.
+Eliot uses the figure of obscure writing to designate her awareness of
+Bertha's irreducible otherness, but it too is just a metaphor.
+If the recourse to sympathy and thus to metaphor is epistemologically
+unavoidable, however, Eliot also indicts it as ethically deficient. Sympathy is in one crucial respect not a fully ethical position for her because
+it does not attend to the other as such, but is rather, in George Henry
+Lewes's words, a "one-sided knowing of things in relation to the self."31
+
+It is a unilateral relation, not only insofar as it relates the other back
+to the self via the assumption of a fellowship, but in that it empowers
+and inflates the self by means of this relation. In The Lifted Veil, Eliot
+suggests that there is a kind of narcissism implicit in sympathy, since
+sympathy, not unlike antipathy, ultimately refers the other back to the
+
+self in order to confirm and nourish the self. As Latimer puts this in
+
+a phrase cited earlier, the assumption of a sympathetic bond between
+ourselves and our neighbors "is one of the vain thoughts with which
+we men flatter ourselves." His critique of sympathy here is twofold. On
+the one hand, he argues that sympathy is simply impossible, due to our
+"hard indifference to the sensations and emotions of our fellow." This
+is his by now familiar misanthropic critique of sympathy, against which
+
+454 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+a defense of sympathy could meaningfully be opposed. On the other
+hand, and much more problematically, he states that sympathy and the
+very idea of sympathy are essentially narcissistic. According to this latter critique, we are not indifferent to the other at all but use the other
+(and our relation to the other) as a means of flattering ourselves.32 In
+this sense of an underlying narcissism, Latimer's "good" sympathy for
+his father is not fundamentally distinct from his "bad" condemnations
+of his neighbors' pettiness and stupidity. Neither is Latimer's antipathy
+fundamentally distinct from his ostensibly moral recognition of Bertha's
+
+selfishness and shallowness, or from Eliot's indictment of Bertha as a
+bad surrogate. These are all not only self-referential but self-serving,
+self-confirming relationships; as Latimer puts it, they are relations that
+make people "feel wise and virtuous-conquerors over the temptations they define in well-selected predicates." To use the words of the
+Middlemarch narrator, they are a taking of the world as an udder to
+feed the supreme self.33 In Middlemarch, Eliot equates our feeding
+on the external world with infantilism and moral stupidity. The danger
+she allows herself to dramatize in The Lifted Veil is that we can never
+outgrow this infantile, narcissistic relation to what is outside of us by
+a transition from immature egotism to mature sympathy. The collapse
+in The Lifted Veil of any tenable distinction between sympathy and
+egotism is an indictment of sympathy as implicitly narcissistic. Eliot
+is not only asking whether sympathy is possible without narcissism,
+without seeing the other in terms of its "great relation of a common
+nature" to oneself. She is suggesting that compassion and sympathy
+are disguised forms of narcissism and, as such, not fundamentally
+different from the kinds of character-traits (selfishness, misanthropy)
+she and her narrators routinely indict.34
+The Lifted Veil suggests Eliot's awareness of this ethical dilemma
+in the problematic figure of Bertha, the privileged object of the text's
+epistemological, moral, and sexual energies. It is this figure, I have
+been arguing, which implies a true threat to Eliot.35 The threat is not
+Bertha's ultimate revelation as afemmefatale, nor is it her role as Eliot's
+bad surrogate. Those threats can be (and are) visually exposed and
+then symbolically expelled from the text, so they pose no real danger.
+The Fatal Woman is unveiled as such and then exiled, while the bad
+
+surrogate is replaced by the good surrogate, Latimer. Insofar as they
+are recoverable threats, they in fact play an apotropaic role, much like
+Freud's fetish which acknowledges but also protects against the threat
+
+of potential castration. The revelation of Bertha as the bad surrogate,
+for instance, allows Latimer to be realized more fully as Eliot's good
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+455
+
+surrogate, thereby helping to redeem Eliot's ethics of sympathy. At the
+same time, however, Eliot's injunction to face the other as other implies
+
+that there is something unethical and narcissistic in the revealing of
+Bertha as Latimer's and Eliot's bad double. This implication hints at a
+second ethical threat in The Lifted Veil, one that is only partially veiled
+by the more visible threat of Bertha's antipathy. This latter threat takes
+the form not of antipathy but of sympathy, of a relation to the other
+
+that is fundamentally metaphorical (and therefore unethical insofar
+as it is not telepathic).36
+Bertha is the face of both aspects of Eliot's ethical project and ethi-
+
+cal dilemma. She is the text's exemplary figure for otherness and for
+the awareness of otherness: "[S]he made the only exception, among all
+human beings about me, to my unhappy gift of insight. About Bertha
+
+I was always in a state of uncertainty" (V, 15). At various points in
+the novella, Latimer compares Bertha to a piece of writing, often a
+piece of writing he cannot read or comprehend, in order to designate
+her inaccessibility. The illegible or incomprehensible writing to which
+Bertha is compared is a metaphor for the other's irreducible otherness,
+
+just as Latimer's telepathy is a metaphor for the appreciation of that
+otherness as such. At the same time, Latimer also compares Bertha
+to a visual object, in order to designate her accessibility ("I saw all
+around the narrow room of this woman's soul"). Here the other's accessibility is figured in terms of visibility, and telepathy is figured in
+
+sensory terms, as clairvoyance. In light of the traditional Aristotelian
+association between perception and the use of metaphor, Latimer's
+visions of Bertha are figures for a relation to the other that is based
+on metaphorical principles of similarity and analogy. The complementary figures of Bertha as visual object and of Latimer's clairvoyance
+are self-reflexive metaphors for how the other becomes intelligible
+through one's own metaphors for it. They are indicative of how the
+other becomes intelligible to us through its (visual) similarity and
+dissimilarity to ourselves. In The Lifted Veil, Latimer tellingly gains
+clairvoyant access to Bertha's mind at the moment when he looks at her
+in terms of himself, or, more specifically, in terms of her dissimilarity
+to himself. He contrasts her antipathy for him with his own sympathy
+for his dying father, thereby converting her into his bad double. At
+that moment, he also tellingly stops thinking of her as radically other
+to himself, as an oriental alphabet he cannot read or decipher. The
+revelation of Bertha by means of sight (that is, by means of metaphor)
+enables the (moral) closure of the narrative but only partially veils that
+which is left out by this closure: the other's otherness, the otherness
+
+456 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+for which the oriental alphabet is a metaphor or, more precisely, a
+catachresis. Eliot's dilemma in the novella (and perhaps in her novels
+and criticism more generally) is that her sympathetic ethics succeeds
+only at the expense of a telepathic relation, at the expense of what she
+
+considers our obligatory "reverence before the secrets of each other's
+souls" (L, 3:164).
+
+Tulane University
+NOTES
+
+The intellectual debt my article owes to the teachings and writings of J. Hillis M
+
+will be apparent, and I am very grateful for his longstanding generosity and guida
+
+I also want to thank Megan Becker-Leckrone, Ellen Burt, Matthew Potolsky
+
+Barbara Spackman for their responses to the dissertation chapter on which this
+is partially based. Thanks as well to Stefan Mattessich, Marc Redfield, and to Ken
+
+Reinhard and the U.C.L.A. 1998-1999 Humanities Consortium Seminar Series.
+
+deepest thanks go to Patience Moll for her careful reading and substantive, thou
+ful suggestions.
+1 George Eliot, Essays of George Eliot, ed. Thomas Pinney (New York: Colum
+Univ. Press, 1963), 270-71. The figure of an expanded sympathy is indebted to W
+sworth: "Thus daily were my sympathies enlarged." See The Prelude: 1799, 1805, 18
+ed. Jonathan Wordsworth and others (New York: Norton, 1979), 74.
+
+2 Walter Pater, The Renaissance: Studies in Art and Poetry, ed. Donald L.
+
+(Berkeley: Univ. of California Press, 1980), xix-xx. On the relation between aesth
+and sympathy, see in particular chapter 17 of Adam Bede: "All honour and rever
+to the divine beauty of form ... But let us love that other beauty too, which lies in
+secret of proportion, but in the secret of deep human sympathy." Eliot, Adam B
+ed. Stephen Gill (New York: Penguin, 1980), 224. On the ethics of sympathy in A
+Bede, see J. Hillis Miller, The Ethics of Reading: Kant, de Man, Eliot, Trollope, Jam
+
+and Benjamin (New York: Columbia Univ. Press, 1987), 61-80.
+
+3 See Kate Flint, "Blood, Bodies, and The Lifted Veil," Nineteenth-Century Literat
+
+51 (1997): 455-73; Malcolm Bull, "Mastery and Slavery in The Lifted Veil," Es
+in Criticism 48 (1998): 244-61; Richard Menke, "Fiction as Vivisection: G. H. L
+
+and George Eliot," ELH 67 (2000): 629-30; and Sally Shuttleworth, "Introduction
+
+Eliot, The Lifted Veil and Brother Jacob, ed. Shuttleworth (New York: Penguin, 200
+
+xi-xxxii. Much of this line of inquiry is indebted to B. M. Gray, "Pseudoscience
+George Eliot's 'The Lifted Veil,"' Nineteenth-Century Fiction 36 (1982): 407-23.
+4 Eliot, The Lifted Veil and Brother Jacob, ed. Helen Small (Oxford: Oxford Un
+Press, 1999), 15. Hereafter abbreviated V and cited parenthetically by page num
+page numbers for Small's introduction provided parenthetically in roman numer
+5 The Lifted Veil was originally published anonymously in Blackwood's magazin
+July 1859, six months after the publication of Adam Bede. Its composition coin
+with Eliot's beginning work on what would eventually become The Mill on the F
+Eliot did not republish the novella until 1878, two years before her death. On t
+biographical circumstances of the text's composition and publication, see Go
+Haight, George Eliot: A Biography (Harmondsworth: Penguin, 1968), 295-97;
+U. C. Knoepflmacher, George Eliot's Early Novels: The Limits of Realism (Berke
+Univ. of California Press, 1968), 128-39.
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+457
+
+6 Charles Swann, "Djai Vu: Djai Lu: 'The Lifted Veil' as an Experiment in Art,"
+Literature and History 5 (1979): 47.
+My claims in this paragraph are based on some points in Swann's essay, especially
+pages 46-49. Swann's argument about the ethical problem in The Lifted Veil is the
+following:
+
+[Latimer] has "direct experience of the inner states of others." Yet-with
+
+all these advantages-he does not feel for others as a reader should...
+Latimer is in literal possession of what Eliot normally offers as metaphors
+for how to be a moral agent: but he is paralyzed into passivity by his insights.
+
+If Latimer is an example of a reader trapped in the book of life, then there
+is the horrific possibility for Eliot that her key value of sympathy doesn't
+open the door into the fully moral life. Her theories about the relationship
+between her art and life may be entirely wrong. (47)
+While Swann here identifies Latimer as Eliot's reader, other critics and Swann himself
+
+have also interpreted him as a stand-in for Eliot herself or for the novelist as such.
+See Gillian Beer, "Myth and the Single Consciousness: Middlemarch and The Lifted
+Veil," in This Particular Web: Essays on Middlemarch, ed. Ian Adam (Toronto: Univ.
+of Toronto Press, 1975), 94-101; Sandra Gilbert and Susan Gubar, The Madwoman in
+the Attic: The Woman Writer and the Nineteenth-Century Literary Imagination (New
+
+Haven: Yale Univ. Press, 1979), 470-71; Neil Hertz, George Eliot's Pulse (Stanford:
+Stanford Univ. Press, 2003), 42-62; and Swann, 46-49. These critics equate Latimer's
+telepathy with the novelist's power to imagine the thoughts and feelings of a great variety of different characters. Whether Latimer is interpreted as the reader, the writer,
+
+or both at once, he points to a similar ethical problem: a lack of sympathy for those
+to whose thoughts and feelings he has access. His responses to his clairvoyant visions
+contradict Eliot's moral injunctions about creating and responding to art.
+8 Eliot, The George Eliot Letters, ed. Haight, 9 vols. (New Haven: Yale Univ. Press,
+1954-1978), 9:220. Hereafter abbreviated L and cited parenthetically by volume and
+page number.
+9 My claims about the novella's negative implications for Eliot's aesthetics and ethics
+are complementary to a critical tradition that has read The Lifted Veil as an allegorical
+text about writing and the creative process. See, for example, Ruby Redinger, George
+Eliot: The Emergent Self(New York: Knopf, 1975), 403; Knoepflmacher, 137-61; Hertz,
+
+Pulse, 42-62; Swann, 42; Beer, 94-101; and Gilbert and Gubar, 470. See also Carroll
+
+Vierra, "'The Lifted Veil' and George Eliot's Early Aesthetic," Studies in English Literature 24 (1984): 749-67. Vierra reads the novella in the context of Marian Evans's
+critical writings about art and aesthetics from the 1840s and 1850s. Many critics locate
+the allegory at the level of an autobiographical identification they find between the
+emerging writer George Eliot and her protagonist Latimer, who identifies himself as
+a failed poet. Both the young Marian Evans and Latimer, they maintain, are characterized by intense self-doubt, self-consciousness, insecurity, feelings of guilt vis-a-vis
+their fathers and families, and "feminine" sensitivity. See, for example, Knoepflmacher,
+
+137, 150-52, 160-61; Redinger, 401-5; and Gilbert and Gubar, 450. Other critics focus
+specifically on the problem of Latimer's misanthropy and selfishness but do not discuss
+these character traits in terms of their potentially negative implications for Eliot's ethics
+of sympathy. See Eliot L. Rubinstein, "A Forgotten Tale by George Eliot," Nineteenth-
+
+Century Fiction 17 (1962): 180-82; Edward Hurley, "'The Lifted Veil': George Eliot
+as Anti-Intellectual," Studies in Short Fiction 5 (1968): 260-62; and Knoepflmacher,
+154-59. It is only a few critics, in particular Swann and Beer, who have brought the
+
+458 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+theme of Latimer's misanthropy into a relation with Eliot's allegorical reflections in
+The Lifted Veil on art and writing as such.
+10 Latimer's conversion to sympathy anticipates that of Philip Wakem in The Mill on
+the Floss, a text written concurrently with and after The Lifted Veil. There are notable
+parallels between the two characters, as both are insecure, solipsistic, deeply alienated
+from society, selfish, and devoid of sympathy for others. Philip indicates his conversion
+in a letter he writes to Maggie late in the novel:
+The new life I have found in caring for your joy and sorrow more than
+for what is directly my own, has transformed the spirit of rebellious murmuring into that willing endurance which is the birth of true sympathy.
+I think nothing but such complete and intense love could have initiated
+me into that enlarged life which grows and grows by appropriating the life
+of others; for before I was always dragged back from it by ever-present
+painful self-consciousness.
+Eliot, The Mill on the Floss, ed. A. S. Byatt (New York: Penguin, 1979), 634.
+" The doubling is emphasized in the two characters' reciprocal gazes, and even at
+the level of the sentence: "we were front to front with each other and judged each
+other" (my emphasis). The mirroring between Bertha and Latimer has gone largely
+unnoticed by critics. This oversight works in the interest of Eliot's ethical agenda, since
+ultimately Eliot wants to disassociate the two characters in order to redeem Latimer
+and to indict Bertha. Only Hertz has recognized Bertha as Latimer's clone (see Hertz,
+Pulse, 55-56, 62). For Hertz, the doubling of Eliot's surrogate, Latimer, is a step towards
+safely distancing Eliot (and, by extension, Marian Evans) from any direct implication
+in the potentially harmful powers of her own language. Gilbert and Gubar also note
+that Bertha and Latimer are "mutually reciprocal characters." They interpret the "effeminate Latimer" and the "castrating Bertha" autobiographically, as two aspects of
+Eliot's allegedly divided self. See The Madwoman in the Attic, 465.
+12 Consider, for example, Freud's statements on women and ethics. In his essay
+
+"Some Psychical Consequences of the Anatomical Distinction between the Sexes,"
+Freud writes, "I cannot evade the notion (though I hesitate to give it expression) that
+for women the level of what is ethically normal is different from what it is in men"
+(The Standard Edition of the Complete Psychological Works of Sigmund Freud, ed. and
+trans. James Strachey and others, 24 vols. [London: The Hogarth Press, 1953-1974],
+19:257). In the lecture on "Femininity," he makes this point in a less roundabout way:
+"[W]e attribute a larger amount of narcissism to femininity" (22:132). On Bertha as a
+version of the conventional nineteenth-century Fatal Woman figure, see Knoepflmacher
+
+(148-49), Gilbert and Gubar (459-61), and Vierra (755).
+
+13 Hertz, The End of the Line: Essays on Psychoanalysis and the Sublime (New York:
+
+Columbia Univ. Press, 1985), 224.
+14 Hertz, End of the Line, 85.
+
+15 J. Hillis Miller, "Optic and Semiotic in Middlemarch," in George Eliot: Modern
+Critical Views, ed. Harold Bloom (New York: Chelsea House, 1986), 102.
+" The citation is from chapter fifteen of Middlemarch. The full sentence, which refers
+
+to Lydgate, runs as follows: "For surely all must admit that a man may be puffed and
+
+belauded, envied, ridiculed, counted upon as a tool and fallen in love with, or at least
+selected as a future husband, and yet remain virtually unknown-known merely as a
+cluster of signs for his neighbour's false suppositions" (Eliot, Middlemarch, ed. W. J.
+Harvey [New York: Penguin, 1985], 171). I am arguing that The Lifted Veil explicitly
+depicts Bertha as such a cluster of signs and Latimer's unveiling of her as one inter-
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+459
+
+pretation of those signs. For a discussion of the characters in Middlemarch as texts
+open to numerous and potentially conflicting interpretations by other characters, see
+J. Hillis Miller, "Narrative and History," ELH 41 (1974): 465-68.
+17 J. Hillis Miller makes a similar argument about perceptions in Middlemarch. He
+proposes that the optical metaphors in the novel, and the kinds of knowledge they make
+possible, are always subverted by other metaphors that qualify any (literal or figurative)
+perceptions as interpretations, which is to say as having a subjective investment in what
+
+is seen and in particular ways of seeing. See Miller, "Optic and Semiotic," 109.
+" The parenthetical citation is from The Lifted Veil, 41.
+19 According to George Henry Lewes's journal, Marian Evans and he attended a
+performance of Donizetti's opera Lucrezia Borgia in August 1857, not long before the
+writing of The Lifted Veil. See Haight, 241. In her notes for The Lifted Veil, Helen
+Small points out that the painting Latimer describes was for much of the nineteenth
+century attributed to Giorgione in error, and identifies it as a copy of Lorenzo Lotto's
+
+A Lady with a Drawing of Lucretia.
+20 Terry Eagleton, "Power and Knowledge in 'The Lifted Veil,'" Literature and
+History 9 (1983): 58-59. Eagleton maintains that the revelation scene in The Lifted
+Veil provides the reader with no means by which to verify its truth, but he lays out
+the predicament very differently than I do. On the one hand, he argues, the conventions of realist fictions demand that Latimer's report be taken literally because he is
+the narrator and as such the most reliable index of truth in the novella. On the other
+
+hand, he maintains, it is equally possible that "Latimer has rigged his tale to frame
+his wife, impudently concocting an event as he may have previously, perhaps more
+permissably, falsified perceptions" (58). For Eagleton, this ambiguity undermines the
+implicit restoration of truth provided by narrative, a restoration that is generically
+the aim of realist fiction as such. My own reading of the scene does not attribute its
+ambiguity to character or intention (Latimer's alleged untrustworthiness) but rather
+to the truth that is revealed.
+
+21 Aristotle, Rhetoric, trans. Rhys Roberts, in The Rhetoric and Poetics of Aristotle,
+ed. Edward P. J. Corbett (New York: Modern Library, 1984), 1405a 170. Eliot famously
+makes reference to Aristotle's theory of metaphor in book two, chapter one of The
+
+Mill on the Floss.
+
+22 Eliot, Essays, 270. In that same essay, she writes that art is a mode of "extending
+our contact with our fellow-men beyond the bounds of our personal lot" (Essays, 271,
+my emphasis).
+23 Eliot, Middlemarch, 196, my emphasis.
+24 This is true even for critics who do not endorse Eliot's ethics of sympathy and focus,
+
+rather, on her questioning of the possibility or viability of sympathetic identifications, as
+
+for instance John Kucich in Repression in Victorian Fiction: Charlotte Bronti, George
+Eliot, and Charles Dickens (Berkeley: Univ. of California Press, 1987), J. Hillis Miller
+in The Ethics of Reading, or D. A. Miller in Narrative and Its Discontents: Problems
+of Closure in the Traditional Novel (Princeton: Princeton Univ. Press, 1981).
+25 Ludwig Feuerbach, The Essence of Christianity, trans. Eliot (New York: Harper,
+1957), 268.
+26 On the other in Middlemarch and in Eliot's work in general as an epistemological
+
+problem, see J. Hillis Miller, Others (Princeton: Princeton Univ. Press, 2001), 67-79.
+27 In the crucial revivification scene, Latimer writes, "[W]e all felt that the dark veil
+had completely fallen" (V, 41). This remark is thoroughly ambiguous since it designates
+
+Bertha's complete obfuscation as much as her full exposure.
+
+460 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+28 The ethics of sympathy is evoked explicitly by the epigraph Eliot wrote for The
+
+Lifted Veil fourteen years after its original publication: "Give me no light, great
+heaven, but such as turns / To energy of human fellowship; / No powers save the
+growing heritage / That makes completer manhood" (Letters, 5:380). This epigraph
+first appears in a letter of February 1873 to her editor, John Blackwood. It has been
+attached to all subsequently published versions of the novella, including the one in
+the 1878 Cabinet edition of Eliot's works. Ostensibly, the epigraph serves to counter
+the threat of Latimer's lack of sympathy, as Small has argued in her introduction to
+the novella: "[The motto] is also an attempt to close down the threat of what [Eliot]
+has allowed herself to imagine. ... [It] courts our compassionate insight into the narrator while he himself mocks us with the impossibility of sympathy" (xxx). I would add
+
+that Eliot's evocation of human fellowship also covers over (and defends against) the
+impossibility of telepathy.
+
+29 On the success and failure of telepathy in The Lifted Veil, see Marc Redfield,
+Phantom Formations: Aesthetic Ideology and the Bildungsroman (Ithaca: Cornell Univ.
+Press, 1996), 160-70. Complementary to my juxtaposition of sympathy and telepathy,
+Redfield reads the figure of telepathy as itself indicative of both identification and difference. He discusses telepathy as a metaphor for reading the materiality of language,
+and, at the same time, as "a particularly appropriate metaphor for an aesthetic of
+sympathy, grounded in a predicament of reading it must disavow" (162). So on the one
+hand, he equates the distance (tele) in telepathy with the other's irreducible difference
+as the otherness of language: "[T]his difference and distance is that of language in its
+materiality" (162). At the same time, he takes the pathos in telepathy as a figure for
+feeling, for sympathy, for aesthetically bringing the other close to oneself. These two
+figures are for him in a relation of mutual disavowal, wherein feeling must disavow
+the necessity of reading in order to succeed. Telepathy (as a figure for feeling with the
+other) figuratively designates the possibility of sympathy, but (as a figure for reading
+the material signs of language) it also designates sympathy's destruction. It insists that
+one cannot feel with the other, one only reads the material signs that constitute the
+other's otherness from oneself. Telepathy thus designates an irreducible difference
+within sympathy that is also the ground of sympathy. For Eliot, I would add, the
+other's otherness from oneself designates not only the epistemological destruction
+of any grounds on which sympathy could take place but also an ethical imperative
+that is heterogeneous to the ethical imperative called sympathy. Certainly the other's
+otherness is for Eliot a metaphor for the materiality of language, as Redfield points
+out; but this figurative relationship also functions in reverse, thereby supplementing
+the epistemological problematic with an ethical one.
+30 Insofar as this move to sympathy is at best a consolation, however, it also relegates
+
+sympathy to a questionable status. As D. A. Miller has argued, Eliot's ostensible endorsement of an ethics of sympathy coincides with an implicit questioning of sympathy.
+
+See Narrative and Its Discontents, 152-94. For Miller's reading of Eliot, sympathy
+is on the one hand a genuinely ethical transcendence of egotism, of the separation
+between self and other, and of the ambiguous material signs through which the other
+
+becomes intelligible. At the same time, Miller argues, sympathy is shown by Eliot
+to be impossible, insofar as any moment of transcendence is subverted by the very
+material signs that narrate it, signs which are demonstratively as much indicative of
+egotism and obfuscation as of fellow feeling and transparency. Hence Eliot leaves us
+in a kind of double bind: sympathetic transcendence would negate the problem of
+interpersonal differences, but it is in turn negated by difference (in the form of mate-
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+461
+
+rial signs). Miller's reading of sympathy as a structure of mutual negation is not unlike
+the structure of mutual disavowal identified in Redfield's double reading of telepathy,
+
+discussed in the previous endnote. Both Redfield and Miller see the materiality of
+signs as a difference Eliot would overcome in the name of a sympathetic ethics. In
+The Lifted Veil, however, the association of Bertha with texts, writing, and signs not
+only questions and potentially subverts the possibility of sympathetic identifications.
+It is also a reminder of an entirely different ethical imperative, of an ethics that would
+not transcend otherness but maintain it (this relation is what I am calling telepathy).
+My emphasis on telepathy as a second ethical imperative (besides sympathy) refutes
+received ideas about the formal impasse in which deconstructive readings of Eliot
+are often said to terminate. Telepathy is for Eliot a figure for a genuine ethical value,
+not only a figure for the simultaneous possibility and impossibility of interpersonal
+identifications.
+
+3' This phrase is excerpted from a telling remark about The Lifted Veil made by
+Lewes to the writer Edith Simcox, a remark that also serves as the epigraph for this
+section of the essay: "the moral is plain enough ... the one-sided knowing of things in
+relation to the self" (Eliot, Letters, 9:220). Lewes is presumably referring to Latimer's
+egotism, but Latimer's sympathy, and perhaps any sympathy, is similarly unilateral,
+similarly one-sided.
+32 As Kucich has pointed out, egotism in Eliot's work is not an indifference to or an
+isolation from other people. Rather, it is a dependence on others. For Kucich, Eliot's
+egotists (such a Tito in Romola, Hetty in Adam Bede, Godfrey in Silas Marner, and
+Gwendolen and Grandcourt in Daniel Deronda) depend on the thoughts and opinions
+of the people around them to constitute themselves as selves, to have desires and motives, and to feel valuable (181-200).
+33 "We are all of us born in moral stupidity, taking the world as an udder to feed our
+
+supreme selves" (Eliot, Middlemarch, 243).
+34 It is on this point that my reading dovetails momentarily with Kucich's compelling
+
+and counterintuitive critique of sympathy as a moral value in Eliot's work (114-200).
+Kucich too finds an unexpected and ironic similarity between sympathy and egotism
+in Eliot's writings; both sympathy and egotism, he claims, are for Eliot fundamentally
+similar kinds of relationships to other people. Both relationships represent a dangerous
+dependence on, and vulnerability to, other people, and both represent an implicit submission of the self to the other (172, 181). As such, Kucich argues, both pose a threat
+to the autonomy of the self (150). I would argue, by contrast, that neither sympathy
+nor egotism poses a threat to the self (what they threaten, rather, is Eliot's ethics). Both
+are fundamentally confirming and constitutive of the self, insofar as both are relations
+to the other in which the other is defined in terms of the self (and not vice versa, as
+Kucich would say), and in which the self constructs itself out of an appropriation of the
+
+other. According to Kucich, Eliot's solution to the problem of otherness is to bypass
+any relation to the other altogether, and to advocate a model of selfhood and an ethics
+that are constituted by an exclusively inner dialectic between desire and internalized
+repression (117). On the contrary, I do not see Eliot advocating a turn inward and away
+from the other but rather advocating a qualitatively different relationship to the other,
+
+one I am calling telepathy (as an alternative to both egotism and sympathy). It seems
+to me significant that Kucich's critique of sympathy, a value which he understands as a
+fusion with the other and as a renunciation of all individuation, does not acknowledge
+Eliot's insistence on respecting and simultaneously engaging with the other's otherness.
+Kucich cites part of a sentence from "The Natural History of German Life" about the
+
+462 Sympathy and Telepathy in The Lifted Veil
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+obligatory movement from selfishness to moral sentiment, but tellingly elides Eliot's
+call in that sentence for an "attention to what is apart from [ourselves]" (see Kucich,
+114, and Eliot, Essays, 270).
+35 To read Eliot's text and then to talk about Eliot being somehow threatened is to
+reproduce the move from telepathy to sympathy that is performed within the text itself.
+
+Just as there is a movement in the novella from "reading" the other to "seeing into" or
+"feeling with" the other, we perform, as soon as we talk about Eliot's awareness of a
+threat, a movement from reading the text to psychologizing and anthropomorphizing
+it. John Blackwell, for instance, writes to Eliot about the manuscript version, "Others
+like me are thrilled [with the story], but wish the author in a happier frame of mind,"
+and elsewhere, "I think you must have been worrying and disturbing yourself about
+
+something when you wrote" (Eliot, Letters, 3:112, 67). Blackwell's attention moves
+from the writing to a speculation about how the author must have been feeling when
+
+she wrote. This interest in Marian Evans's mindset is the move from reading the
+manuscript to psychologizing it. The moment we ask about how Eliot might have
+been feeling, and the moment we attempt to explain her awareness of a given threat,
+we are operating at the level of similarity, of metaphor, of aesthetic ideology. We are
+reproducing an ethics of sympathy, not an ethics of telepathy. As Eliot suggests, this
+move is epistemologically unavoidable, but it also places us in an ethical predicament
+similar to the one dramatized in her text.
+I Eliot's suspicion of sympathy, and her shifting of the ethical dilemma away from
+
+an opposition between sympathy and egotism, distinguish her project from ethical
+theories that equate morality with individual conscience, intention, or character psychology. Those theories often base their definition of ethics on psychology, typology,
+the traditional subject, or the categorical valorization of some form of alterity. They
+also tend to construct simple oppositions between good and bad, moral and immoral,
+self and other. Eliot's own conclusions demonstrate how such projects can succeed
+ethically only through celebrations and condemnations of the other (and of the self)
+that are ultimately arbitrary and, in a manner of speaking, narcissistic.
+
+Thomas
+
+Albrecht
+
+This content downloaded from
+128.59.222.107 on Mon, 06 Jun 2022 16:03:28 UTC
+All use subject to https://about.jstor.org/terms
+
+463
+
+
