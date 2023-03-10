@@ -2,3 +2,4 @@ __pycache__
 text_matcher.egg-info
 dist/
 algorithm-testing/jstor-middlemarch-articles.json
+preprocessing/test_pdf.pdf
