@@ -2,4 +2,8 @@ __pycache__
 text_matcher.egg-info
 dist/
 algorithm-testing/jstor-middlemarch-articles.json
+<<<<<<< HEAD
 preprocessing/test_pdf.pdf
+=======
+algorithm-testing/jstor-gender-trouble-all-articles.jsonl
+>>>>>>> cdaa97a50a7b8b4f9fc58990975edf3773b4e65c
