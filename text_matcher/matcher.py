@@ -247,34 +247,35 @@ class Matcher:
         extended = False
         for match in self.healed_matches:
             # Look one word before.
-            wordA = self.textAgrams[(match.a - 1)][0]
-            wordB = self.textBgrams[(match.b - 1)][0]
-            if self.edit_ratio(wordA, wordB) < cutoff:
-                if self.silent is not True:
-                    print('Extending match backwards with words: %s %s' %
-                        (wordA, wordB))
-                match.a -= 1
-                match.b -= 1
-                match.sizeA += 1
-                match.sizeB += 1
-                match.extendedBackwards += 1
-                extended = True
-            # Look one word after.
-            idxA = match.a + match.sizeA + 1
-            idxB = match.b + match.sizeB + 1
-            if idxA > len(self.textAgrams) - 1 or idxB > len(self.textBgrams) - 1:
-                # We've gone too far, and we're actually at the end of the text.
-                continue
-            wordA = self.textAgrams[idxA][-1]
-            wordB = self.textBgrams[idxB][-1]
-            if self.edit_ratio(wordA, wordB) < cutoff:
-                if self.silent is not True:
-                    print('Extending match forwards with words: %s %s' %
-                        (wordA, wordB))
-                match.sizeA += 1
-                match.sizeB += 1
-                match.extendedForwards += 1
-                extended = True
+            if match.a > 0 and match.b > 0:
+                wordA = self.textAgrams[(match.a - 1)][0]
+                wordB = self.textBgrams[(match.b - 1)][0]
+                if self.edit_ratio(wordA, wordB) < cutoff:
+                    if self.silent is not True:
+                        print('Extending match backwards with words: %s %s' %
+                            (wordA, wordB))
+                    match.a -= 1
+                    match.b -= 1
+                    match.sizeA += 1
+                    match.sizeB += 1
+                    match.extendedBackwards += 1
+                    extended = True
+                # Look one word after.
+                idxA = match.a + match.sizeA + 1
+                idxB = match.b + match.sizeB + 1
+                if idxA > len(self.textAgrams) - 1 or idxB > len(self.textBgrams) - 1:
+                    # We've gone too far, and we're actually at the end of the text.
+                    continue
+                wordA = self.textAgrams[idxA][-1]
+                wordB = self.textBgrams[idxB][-1]
+                if self.edit_ratio(wordA, wordB) < cutoff:
+                    if self.silent is not True:
+                        print('Extending match forwards with words: %s %s' %
+                            (wordA, wordB))
+                    match.sizeA += 1
+                    match.sizeB += 1
+                    match.extendedForwards += 1
+                    extended = True
 
         if extended:
             # If we've gone through the whole list and there's nothing
