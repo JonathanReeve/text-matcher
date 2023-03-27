@@ -99,7 +99,6 @@ class Matcher:
         self.threshold = threshold
         self.ngramSize = ngramSize
         self.minDistance = minDistance
-        self.silent = silent
 
         self.textA = textObjA
         self.textB = textObjB
@@ -121,6 +120,8 @@ class Matcher:
                                  if min(match.sizeA, match.sizeB) >= cutoff]
 
         self.numMatches = len(self.extended_matches)
+
+        self.silent = silent
 
     def get_initial_matches(self):
         """
