@@ -3,5 +3,7 @@ text_matcher.egg-info
 dist/
 preprocessing/incorrect_articles_pdfs
 preprocessing/gender_trouble.pdf
+preprocessing/foucault.pdf
+preprocessing/kuhn.pdf
 algorithm-testing/jstor-gender-trouble-all-articles.jsonl
 algorithm-testing/jstor-middlemarch-articles.json
