@@ -5,5 +5,7 @@ preprocessing/incorrect_articles_pdfs
 preprocessing/gender_trouble.pdf
 preprocessing/foucault.pdf
 preprocessing/kuhn.pdf
+preprocessing/hooks.pdf
+preprocessing/benjamin.pdf
 algorithm-testing/jstor-gender-trouble-all-articles.jsonl
 algorithm-testing/jstor-middlemarch-articles.json
