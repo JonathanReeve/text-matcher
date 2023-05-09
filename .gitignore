@@ -1,3 +1,11 @@
 __pycache__
 text_matcher.egg-info
 dist/
+algorithm-testing\jstor-gender-trouble-all-articles.jsonl
+algorithm-testing\jstor-middlemarch-articles.json
+preprocessing\gendertrouble-text.txt 
+preprocessing\gendertrouble-text-cleaned.txt
+**/jstor-gender-trouble-all-articles.jsonl
+**/jstor-middlemarch-articles.json
+**/gendertrouble-text.txt 
+**/gendertrouble-text-cleaned.txt
