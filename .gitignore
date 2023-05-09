@@ -1,3 +1,17 @@
 __pycache__
 text_matcher.egg-info
 dist/
+preprocessing\gendertrouble-text.txt 
+preprocessing\gendertrouble-text-cleaned.txt
+preprocessing/incorrect_articles_pdfs
+preprocessing/gender_trouble.pdf
+algorithm-testing/jstor-gender-trouble-all-articles.jsonl
+algorithm-testing/jstor-middlemarch-articles.json
+algorithm-testing/jstor-middlemarch-articles.json
+algorithm-testing/jstor-gender-trouble-all-articles.jsonl
+preprocessing/incorrect_articles_pdfs
+preprocessing/gender_trouble.pdf
+preprocessing/foucault.pdf
+preprocessing/kuhn.pdf
+preprocessing/hooks.pdf
+preprocessing/benjamin.pdf
