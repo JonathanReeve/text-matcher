@@ -96,6 +96,8 @@ class Matcher:
         """
         Takes as input two Text() objects, and matches between them.
         """
+        
+        
         self.threshold = threshold
         self.ngramSize = ngramSize
         self.minDistance = minDistance
@@ -122,6 +124,7 @@ class Matcher:
         self.numMatches = len(self.extended_matches)
 
         self.silent = silent
+        
 
     def get_initial_matches(self):
         """
@@ -137,7 +140,7 @@ class Matcher:
 
         numBlocks = len(highMatchingBlocks)
 
-        if numBlocks > 0 and self.silent is not True:
+        if numBlocks > 0 and (not hasattr(self, 'silent') or self.silent is not True): #modified grace
             print('%s total matches found.' % numBlocks, flush=True)
 
         return highMatchingBlocks
@@ -250,7 +253,7 @@ class Matcher:
             wordA = self.textAgrams[(match.a - 1)][0]
             wordB = self.textBgrams[(match.b - 1)][0]
             if self.edit_ratio(wordA, wordB) < cutoff:
-                if self.silent is not True:
+                if not hasattr(self, 'silent') or self.silent is not True: #grace
                     print('Extending match backwards with words: %s %s' %
                         (wordA, wordB))
                 match.a -= 1
@@ -268,7 +271,7 @@ class Matcher:
             wordA = self.textAgrams[idxA][-1]
             wordB = self.textBgrams[idxB][-1]
             if self.edit_ratio(wordA, wordB) < cutoff:
-                if self.silent is not True:
+                if not hasattr(self, 'silent') or self.silent is not True: #grace modified
                     print('Extending match forwards with words: %s %s' %
                         (wordA, wordB))
                 match.sizeA += 1
