@@ -100,6 +100,8 @@ class Matcher:
         self.ngramSize = ngramSize
         self.minDistance = minDistance
 
+        self.silent = silent
+
         self.textA = textObjA
         self.textB = textObjB
 
@@ -120,8 +122,6 @@ class Matcher:
                                  if min(match.sizeA, match.sizeB) >= cutoff]
 
         self.numMatches = len(self.extended_matches)
-
-        self.silent = silent
 
     def get_initial_matches(self):
         """
@@ -232,7 +232,6 @@ class Matcher:
         """ Computes the number of edits required to transform one
         (stemmed already, probably) word into another word, and
         adjusts for the average number of letters in each.
-
         Examples:
         color, colour: 0.1818181818
         theater, theatre: 0.2857
